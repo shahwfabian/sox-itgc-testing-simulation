@@ -1,0 +1,15 @@
+// Power BI measures for the ITGC dashboard (load the CSVs in this folder).
+// Relationships: dim_control[control_id] 1-* fact_exceptions[control_id]
+//                dim_control[control_id] 1-1 fact_control_results[control_id]
+//                dim_risk[risk_id]       1-* dim_control[risk_id]
+
+Exceptions = COUNTROWS ( fact_exceptions )
+Open Exceptions = CALCULATE ( [Exceptions], fact_exceptions[status] = "Open" )
+Items Tested = SUM ( fact_control_results[population] )
+Exception Rate = DIVIDE ( [Exceptions], [Items Tested] )
+Controls Tested = DISTINCTCOUNT ( fact_control_results[control_id] )
+Effective Controls = CALCULATE ( [Controls Tested], fact_control_results[conclusion] = "Effective" )
+Pct Controls Effective = DIVIDE ( [Effective Controls], [Controls Tested] )
+Avg Exception Age (days) = AVERAGE ( fact_exceptions[exception_age_days] )
+Max Priority Score = MAX ( fact_exceptions[priority_score] )
+Critical + High Items = CALCULATE ( [Exceptions], fact_exceptions[priority_tier] IN { "Critical", "High" } )

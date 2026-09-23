@@ -1,0 +1,2 @@
+control_id,exception_id,source_file,source_record_id,employee_id,system_id,reference_id,event_date,required_by,actual_date,days_late,exception_type,status,breach_date,detail,risk_id,severity_score,exception_age_days,priority_score,priority_tier
+ITGC-UA-04,EX-UA-04-001,access_reviews.csv,UAR-2025Q3-LSP,E10996,LSP,2025-Q3,2025-09-30,2025-10-30,2025-11-11,12.0,Review completed after due date,Closed,2025-10-31,"2025-Q3 LSP review due 2025-10-30, completed 2025-11-11 (12 days late)",R-01,12,91,18.0,Low

@@ -1,0 +1,1 @@
+control_id,exception_id,source_file,source_record_id,employee_id,system_id,reference_id,event_date,required_by,actual_date,days_late,exception_type,status,breach_date,detail,risk_id,severity_score,exception_age_days,priority_score,priority_tier

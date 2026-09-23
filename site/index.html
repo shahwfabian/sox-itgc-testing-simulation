@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOX ITGC Testing Simulation</title>
+<meta name="description" content="End-to-end SOX IT General Controls testing simulation: risk and control matrix, synthetic populations, pandas + SQL control tests, audit workpapers and a remediation dashboard. All data is synthetic.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f3864'/><path d='M9 16.5l4.5 4.5L23 11.5' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<style>
+:root{
+  color-scheme: light;
+  --page:#f9f9f7; --surface:#fcfcfb; --surface-2:#f3f2ee; --ink:#0b0b0b; --ink-2:#52514e; --muted:#6f6d68;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10); --accent:#1f3864; --accent-ink:#ffffff;
+  --ua:#2a78d6; --pa:#eb6834; --cm:#1baf7a;
+  --good:#0ca30c; --good-ink:#006300; --warn:#fab219; --serious:#ec835a; --critical:#d03b3b; --critical-ink:#b42323;
+  --heat-0:#f0efec; --heat-1:#256abf; --notice-bg:#fdf1e7; --notice-ink:#8a3b12;
+  --shadow:0 1px 2px rgba(0,0,0,.04),0 4px 16px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19; --surface-2:#232321; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#9a988f;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10); --accent:#8fb3ff; --accent-ink:#0d0d0d;
+    --ua:#3987e5; --pa:#d95926; --cm:#199e70; --good-ink:#0ca30c; --critical-ink:#e66767;
+    --heat-0:#262624; --heat-1:#3987e5; --notice-bg:#2a1d14; --notice-ink:#f0b48f; --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19; --surface-2:#232321; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#9a988f;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10); --accent:#8fb3ff; --accent-ink:#0d0d0d;
+    --ua:#3987e5; --pa:#d95926; --cm:#199e70; --good-ink:#0ca30c; --critical-ink:#e66767;
+    --heat-0:#262624; --heat-1:#3987e5; --notice-bg:#2a1d14; --notice-ink:#f0b48f; --shadow:none;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--page) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+header.top .wrap{display:flex;align-items:center;gap:20px;height:56px}
+.brand{font-weight:700;letter-spacing:-.01em;white-space:nowrap;color:var(--ink);text-decoration:none}
+nav.links{display:flex;gap:18px;overflow-x:auto;flex:1;scrollbar-width:none}
+nav.links a{color:var(--ink-2);text-decoration:none;font-size:14px;white-space:nowrap}
+nav.links a:hover{color:var(--ink)}
+.icon-btn{border:1px solid var(--border);background:var(--surface);color:var(--ink);border-radius:8px;height:32px;padding:0 10px;font-size:13px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.notice{background:var(--notice-bg);color:var(--notice-ink);font-size:13px;text-align:center;padding:7px 16px}
+section{padding:56px 0;border-bottom:1px solid var(--border)}
+h1{font-size:clamp(30px,4.6vw,48px);line-height:1.08;letter-spacing:-.025em;margin:0 0 14px}
+h2{font-size:26px;letter-spacing:-.015em;margin:0 0 6px}
+h3{font-size:15px;margin:0 0 12px}
+.lede{font-size:18px;color:var(--ink-2);max-width:760px;margin:0 0 28px}
+.sub{color:var(--ink-2);margin:0 0 28px;max-width:780px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:28px}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.kpi .v{font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.kpi .l{font-size:13px;color:var(--ink-2);margin-top:4px}
+.start{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.start a{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.start a:hover{border-color:var(--accent)}
+.start .n{font-size:12px;font-weight:700;color:var(--accent)}
+.start b{display:block;margin:4px 0 4px}
+.start span{font-size:13px;color:var(--ink-2)}
+.grid2{display:grid;grid-template-columns:1fr 1.35fr;gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;box-shadow:var(--shadow);min-width:0}
+.card .hint{font-size:12px;color:var(--muted);margin:-6px 0 14px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--ink-2);margin-bottom:12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+/* stacked effectiveness bars */
+.eff-row{display:grid;grid-template-columns:130px 1fr;align-items:center;gap:10px;margin:10px 0}
+.eff-row .name{font-size:13px;color:var(--ink-2)}
+.eff-track{display:flex;gap:2px;height:26px}
+.eff-seg{border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#fff;cursor:default}
+.eff-seg.good{background:var(--good)} .eff-seg.bad{background:var(--critical)}
+/* exceptions by control */
+.bar-row{display:grid;grid-template-columns:92px 1fr;align-items:center;gap:10px;height:28px;border-radius:6px;padding:0 4px;cursor:default}
+.bar-row:hover{background:var(--surface-2)}
+.bar-row .name{font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.bar-wrap{display:flex;align-items:center;gap:8px;min-width:0}
+.bar{height:14px;border-radius:0 4px 4px 0;min-width:2px}
+.bar-val{font-size:12px;color:var(--ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.axis-note{font-size:11px;color:var(--muted);margin-top:8px}
+/* heatmap */
+.heat{display:grid;grid-template-columns:110px repeat(4,1fr);gap:3px}
+.heat .h{font-size:12px;color:var(--muted);text-align:center;padding:4px 0}
+.heat .r{font-size:12px;color:var(--ink-2);display:flex;align-items:center}
+.heat .c{height:54px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;cursor:default;font-variant-numeric:tabular-nums}
+.top-list{list-style:none;margin:0;padding:0}
+.top-list li{display:grid;grid-template-columns:40px 1fr auto;gap:10px;padding:9px 0;border-bottom:1px solid var(--grid);align-items:start}
+.top-list li:last-child{border-bottom:0}
+.score{font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.top-list .t{font-size:13px;font-weight:600}
+.top-list .d{font-size:12px;color:var(--ink-2);overflow-wrap:anywhere}
+.top-list li>div{min-width:0}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;border:1px solid var(--border);white-space:nowrap;color:var(--ink)}
+.pill .dot{width:7px;height:7px;border-radius:50%}
+/* tables */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{text-align:left;font-size:12px;font-weight:600;color:var(--ink-2);background:var(--surface-2);padding:10px 12px;position:sticky;top:0;white-space:nowrap}
+td{padding:10px 12px;border-top:1px solid var(--grid);vertical-align:top}
+td.num{font-variant-numeric:tabular-nums;text-align:right}
+tr.expand{cursor:pointer} tr.expand:hover td{background:var(--surface-2)}
+tr.detail td{background:var(--surface-2);font-size:13px;color:var(--ink-2)}
+.dl{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:0}
+.dl dt{font-weight:600;color:var(--ink)} .dl dd{margin:0}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+select,input[type=search]{height:36px;border:1px solid var(--border);background:var(--surface);color:var(--ink);border-radius:8px;padding:0 10px;font:inherit;font-size:13px}
+input[type=search]{flex:1;min-width:200px}
+.count{font-size:13px;color:var(--ink-2);margin:0 0 10px}
+.pipeline{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;counter-reset:s}
+.step{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.step .k{font-size:12px;font-weight:700;color:var(--accent)}
+.step b{display:block;margin:4px 0}
+.step p{font-size:13px;color:var(--ink-2);margin:0}
+.step code{font-size:11.5px}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.ok{color:var(--good-ink);font-weight:700}
+.dls{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.dls a{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.dls a:hover{border-color:var(--accent)}
+.dls b{display:block} .dls span{font-size:13px;color:var(--ink-2)}
+footer{padding:32px 0 48px;color:var(--muted);font-size:13px}
+#tip{position:fixed;pointer-events:none;z-index:50;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 6px 24px rgba(0,0,0,.14);max-width:280px;opacity:0;transition:opacity .08s}
+#tip b{display:block;margin-bottom:2px}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;background:var(--surface-2);padding:1px 5px;border-radius:4px}
+@media (max-width:900px){
+  .kpis{grid-template-columns:repeat(2,1fr)} .start,.grid2,.checks,.dls{grid-template-columns:1fr}
+  .pipeline{grid-template-columns:repeat(2,1fr)} .dl{grid-template-columns:1fr}
+  header.top .gh-label{display:none}
+}
+@media (max-width:520px){ .heat{grid-template-columns:70px repeat(4,1fr)} .heat .c{height:44px;font-size:14px} .eff-row{grid-template-columns:100px 1fr} }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#top">SOX ITGC Simulation</a>
+  <nav class="links">
+    <a href="#dashboard">Dashboard</a><a href="#rcm">RCM</a><a href="#exceptions">Exceptions</a>
+    <a href="#method">Methodology</a><a href="#downloads">Downloads</a>
+  </nav>
+  <button class="icon-btn" id="theme" aria-label="Toggle color theme">◐</button>
+  <a class="icon-btn" href="https://github.com/shahwfabian/sox-itgc-testing-simulation" target="_blank" rel="noopener">GitHub <span class="gh-label">repo</span> ↗</a>
+</div></header>
+<div class="notice"><b>All data is synthetic.</b> Meridian Financial Group, its people, systems and records are fictional, generated for this simulation.</div>
+
+<main id="top">
+<section><div class="wrap">
+  <div class="eyebrow">SOX 404 / ICFR · IT General Controls</div>
+  <h1>SOX ITGC Testing Simulation</h1>
+  <p class="lede">A full-year IT General Controls test cycle for a fictional financial services company. It maps risks to controls, tests every control against full synthetic populations in Python and SQL, documents the results in audit workpapers, and ranks each exception for remediation.</p>
+  <div class="kpis" id="kpis"></div>
+  <div class="eyebrow">Where to look first</div>
+  <div class="start">
+    <a href="#dashboard"><span class="n">1 · 60 seconds</span><b>Results dashboard</b><span>Which controls failed, how badly, and what to fix first.</span></a>
+    <a href="downloads/workpapers/WP-UA-02_Timely_revocation_of_terminated_users.docx"><span class="n">2 · 5 minutes</span><b>A sample workpaper (UA-02)</b><span>Terminated users keeping access: objective, population, procedures, results, conclusion.</span></a>
+    <a href="#method"><span class="n">3 · Deep dive</span><b>How the testing was validated</b><span>pandas and SQL reconcile record-by-record, and the answer key is checked only after testing.</span></a>
+  </div>
+</div></section>
+
+<section id="dashboard"><div class="wrap">
+  <h2>Results dashboard</h2>
+  <p class="sub" id="dash-sub"></p>
+  <div class="grid2">
+    <div class="card">
+      <h3>Control effectiveness by domain</h3>
+      <div class="legend"><span><i style="background:var(--good)"></i>Effective</span><span><i style="background:var(--critical)"></i>Exception noted</span></div>
+      <div id="eff"></div>
+      <p class="axis-note">Each segment is one control. Hover for details.</p>
+    </div>
+    <div class="card">
+      <h3>Exceptions by control</h3>
+      <div class="legend" id="dom-legend"></div>
+      <div id="bars"></div>
+      <p class="axis-note">Bar length = exception count; label shows the rate against the full population tested.</p>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:16px;grid-template-columns:1.35fr 1fr">
+    <div class="card">
+      <h3>Remediation priority: risk severity × exception age</h3>
+      <p class="hint">Number of exceptions in each cell. Age is measured from the control breach to the fieldwork as-of date. The top-right cells (old exceptions against severe risks) should be fixed first.</p>
+      <div class="heat" id="heat"></div>
+    </div>
+    <div class="card">
+      <h3>Top remediation priorities</h3>
+      <p class="hint">Priority = risk severity × age factor (1.0 → 3.0 over one year), plus 10 if still open.</p>
+      <ul class="top-list" id="top-pri"></ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="rcm"><div class="wrap">
+  <h2>Risk and Control Matrix</h2>
+  <p class="sub">5 financial reporting risks mitigated by 9 ITGCs across user access, privileged access and change management. Click a control to see its test attribute and procedure. <a href="downloads/SOX_ITGC_RCM.xlsx">Download the Excel RCM</a>.</p>
+  <div class="tbl-wrap" style="margin-bottom:16px"><table id="risk-tbl"></table></div>
+  <div class="tbl-wrap"><table id="rcm-tbl"></table></div>
+</div></section>
+
+<section id="exceptions"><div class="wrap">
+  <h2>Exception register</h2>
+  <p class="sub">Every exception the tests found, each traceable to its source record. This is the listing that would go to control owners for remediation.</p>
+  <div class="filters">
+    <select id="f-control" aria-label="Control"><option value="">All controls</option></select>
+    <select id="f-status" aria-label="Status"><option value="">Open + closed</option><option>Open</option><option>Closed</option></select>
+    <select id="f-tier" aria-label="Priority"><option value="">All priorities</option><option>Critical</option><option>High</option><option>Medium</option><option>Low</option></select>
+    <input type="search" id="f-q" placeholder="Search employee, record ID, system, text…" aria-label="Search">
+  </div>
+  <p class="count" id="x-count"></p>
+  <div class="tbl-wrap" style="max-height:560px;overflow:auto"><table id="x-tbl"></table></div>
+</div></section>
+
+<section id="method"><div class="wrap">
+  <h2>Methodology</h2>
+  <p class="sub">Six phases, each a script in <code>src/</code>. Running <code>python run_all.py</code> regenerates everything from a fixed random seed.</p>
+  <div class="pipeline">
+    <div class="step"><span class="k">PHASE 1</span><b>RCM</b><p>Risks, likelihood × impact scoring, and 9 controls with owner, frequency, type and test attribute. <code>phase1_build_rcm.py</code></p></div>
+    <div class="step"><span class="k">PHASE 2</span><b>Synthetic data</b><p>1,250 employees, 2.7k access grants, 185 terminations, 620 changes. Exceptions are seeded at 4–9% of the populations that were seeded, with near-miss records mixed in. <code>phase2_generate_data.py</code></p></div>
+    <div class="step"><span class="k">PHASE 3</span><b>Control tests</b><p>Full-population tests in pandas and in SQL (SQLite with a business-day calendar), reconciled record-by-record. <code>phase3_*.py</code>, <code>sql/</code></p></div>
+    <div class="step"><span class="k">PHASE 4</span><b>Workpapers</b><p>One Word workpaper per control plus a summary memo. Every number is computed from the Phase 3 results. <code>phase4_workpapers.py</code></p></div>
+    <div class="step"><span class="k">PHASE 5</span><b>Dashboard</b><p>This page, a static PNG, and a Power BI star schema with DAX measures. <code>phase5_dashboard.py</code></p></div>
+    <div class="step"><span class="k">PHASE 6</span><b>Docs</b><p>README with scope decisions, policy parameters and a guide to the repository.</p></div>
+  </div>
+  <div class="checks">
+    <div class="card"><h3>Check 1: pandas vs SQL</h3><p class="hint">Two independent implementations of every test must produce the same exception IDs.</p><div class="tbl-wrap"><table id="sql-tbl"></table></div></div>
+    <div class="card"><h3>Check 2: answer key (after testing)</h3><p class="hint">The generator writes seeded exceptions to <code>answer_key/</code>. The tests never read it. It is compared only afterwards, to measure recall and precision.</p><div class="tbl-wrap"><table id="ak-tbl"></table></div></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Traps built into the data</h3>
+    <p class="hint" style="margin:0">The data includes records that are easy to misjudge. Revocations land on exactly the 5th business day. Friday terminations are revoked the following Monday, and business days skip NYSE holidays. Emergency changes are approved retrospectively inside the 2-day window. Normal changes are approved hours before an evening deploy on the same day. The rollback flag appears as "Y", "yes" and "Yes". Every privileged grant shows an approver on the access log, even where the approval register has no record. A test that gets any of these wrong produces false positives or misses real exceptions, and the answer-key check would show it.</p>
+  </div>
+</div></section>
+
+<section id="downloads"><div class="wrap">
+  <h2>Downloads</h2>
+  <p class="sub">The same deliverables a testing team would hand over.</p>
+  <div class="dls">
+    <a href="downloads/SOX_ITGC_RCM.xlsx"><b>Risk &amp; Control Matrix</b><span>Excel · risks, controls, policy parameters</span></a>
+    <a href="downloads/ITGC_Workpapers.zip"><b>Testing workpapers</b><span>Word · 9 control workpapers + summary memo</span></a>
+    <a href="downloads/ITGC_Testing_Results.xlsx"><b>Testing results workbook</b><span>Excel · summary, priority list, exceptions per control</span></a>
+    <a href="downloads/Synthetic_Data.zip"><b>Synthetic populations</b><span>CSV · access, terminations, approvals, reviews, changes</span></a>
+    <a href="downloads/itgc_dashboard.png"><b>Static dashboard</b><span>PNG · for slides or print</span></a>
+    <a href="https://github.com/shahwfabian/sox-itgc-testing-simulation" target="_blank" rel="noopener"><b>Source code</b><span>GitHub · Python, SQL, README</span></a>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap">SOX ITGC Testing Simulation · All entities, people and data are synthetic and for demonstration only. It does not represent any real company's controls, RCM or results.</div></footer>
+<div id="tip" role="tooltip"></div>
+
+<script>
+(() => {
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch (e) {}
+  document.getElementById('theme').onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+  };
+
+  const DOM = {'User Access': 'var(--ua)', 'Privileged Access': 'var(--pa)', 'Change Management': 'var(--cm)'};
+  const TIER = {Critical: 'var(--critical)', High: 'var(--serious)', Medium: 'var(--warn)', Low: 'var(--axis)'};
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const pct = v => (v * 100).toFixed(1) + '%';
+  const fmt = n => Number(n).toLocaleString('en-US');
+  const $ = id => document.getElementById(id);
+
+  const tip = $('tip');
+  function bindTip(el, html) {
+    el.addEventListener('mousemove', e => {
+      tip.innerHTML = html; tip.style.opacity = 1;
+      const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+      const y = e.clientY + 16 + tip.offsetHeight > innerHeight ? e.clientY - tip.offsetHeight - 10 : e.clientY + 16;
+      tip.style.left = x + 'px'; tip.style.top = y + 'px';
+    });
+    el.addEventListener('mouseleave', () => tip.style.opacity = 0);
+  }
+  const pill = t => `<span class="pill"><span class="dot" style="background:${TIER[t]}"></span>${esc(t)}</span>`;
+  const statusPill = s => `<span class="pill"><span class="dot" style="background:${s === 'Open' ? 'var(--critical)' : 'var(--axis)'}"></span>${esc(s)}</span>`;
+
+  fetch('data/dashboard.json').then(r => r.json()).then(D => {
+    const S = D.summary, X = D.exceptions;
+    const tested = S.reduce((a, s) => a + s.population, 0);
+    const eff = S.filter(s => s.conclusion === 'Effective').length;
+    const open = X.filter(x => x.status === 'Open').length;
+    $('kpis').innerHTML = [
+      [S.length, 'controls tested, 100% of populations'],
+      [fmt(tested), 'population items tested'],
+      [X.length, 'exceptions identified'],
+      [`${eff} / ${S.length}`, 'controls operating effectively'],
+      [open, 'exceptions still open at as-of date'],
+    ].map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+    $('dash-sub').textContent = `${D.meta.company} · ${D.meta.period} (${D.meta.period_start} to ${D.meta.period_end}) · exceptions aged to ${D.meta.as_of}.`;
+
+    // effectiveness by domain: one segment per control
+    const doms = ['User Access', 'Privileged Access', 'Change Management'];
+    $('eff').innerHTML = doms.map(d => {
+      const cs = S.filter(s => s.domain === d).sort((a, b) => (a.conclusion === 'Effective' ? -1 : 1));
+      const n = cs.filter(c => c.conclusion === 'Effective').length;
+      return `<div class="eff-row"><div class="name">${d}<br><span style="font-size:11px;color:var(--muted)">${n} of ${cs.length} effective</span></div>
+        <div class="eff-track">${cs.map(c => `<div class="eff-seg ${c.conclusion === 'Effective' ? 'good' : 'bad'}" style="flex:1" data-c="${c.control_id}">${c.control_id.replace('ITGC-', '')}</div>`).join('')}</div></div>`;
+    }).join('');
+    document.querySelectorAll('.eff-seg').forEach(el => {
+      const s = S.find(s => s.control_id === el.dataset.c);
+      bindTip(el, `<b>${s.control_id} · ${esc(s.title)}</b>${s.conclusion} · ${s.exceptions} exceptions in ${fmt(s.population)} items (${pct(s.exception_rate)})`);
+    });
+
+    // exceptions by control
+    $('dom-legend').innerHTML = doms.map(d => `<span><i style="background:${DOM[d]}"></i>${d}</span>`).join('');
+    const max = Math.max(...S.map(s => s.exceptions));
+    $('bars').innerHTML = S.map(s => `<div class="bar-row" data-c="${s.control_id}"><div class="name">${s.control_id}</div>
+      <div class="bar-wrap"><div class="bar" style="width:${s.exceptions ? (s.exceptions / max) * 78 : 0}%;background:${DOM[s.domain]}"></div>
+      <span class="bar-val">${s.exceptions ? `${s.exceptions} · ${pct(s.exception_rate)}` : '0 · effective'}</span></div></div>`).join('');
+    document.querySelectorAll('.bar-row').forEach(el => {
+      const s = S.find(s => s.control_id === el.dataset.c);
+      bindTip(el, `<b>${s.control_id} · ${esc(s.title)}</b>${s.exceptions} of ${fmt(s.population)} items · ${s.open_exceptions} open<br>Risk ${s.risk_id} (${s.risk_rating}) · ${esc(s.deficiency_assessment)}`);
+    });
+
+    // heatmap
+    const H = D.heatmap, hmax = Math.max(...H.values.flat());
+    let h = '<div></div>' + H.cols.map(c => `<div class="h">${c}</div>`).join('');
+    H.rows.forEach((r, i) => {
+      h += `<div class="r">${r} risk</div>`;
+      H.values[i].forEach((v, j) => {
+        const t = v / hmax;
+        h += `<div class="c" data-i="${i}" data-j="${j}" style="background:color-mix(in srgb,var(--heat-1) ${Math.round(t * 88)}%,var(--heat-0));color:${t > .55 ? '#fff' : 'var(--ink)'}">${v || '–'}</div>`;
+      });
+    });
+    $('heat').innerHTML = h;
+    document.querySelectorAll('.heat .c').forEach(el => {
+      const r = H.rows[el.dataset.i], c = H.cols[el.dataset.j];
+      const items = X.filter(x => x.risk_rating === r && bucket(x.exception_age_days) === c);
+      const by = {}; items.forEach(x => by[x.control_id] = (by[x.control_id] || 0) + 1);
+      bindTip(el, `<b>${r} risk · ${c}</b>${items.length} exceptions${items.length ? '<br>' + Object.entries(by).map(([k, v]) => `${k}: ${v}`).join('<br>') : ''}`);
+    });
+    function bucket(d) { return d <= 90 ? '0-90 days' : d <= 180 ? '91-180 days' : d <= 270 ? '181-270 days' : '270+ days'; }
+
+    // top priorities
+    $('top-pri').innerHTML = X.slice(0, 8).map(x => `<li><div class="score" style="color:${x.priority_tier === 'Critical' || x.priority_tier === 'High' ? 'var(--critical-ink)' : 'var(--ink-2)'}">${Math.round(x.priority_score)}</div>
+      <div><div class="t">${x.exception_id} · ${esc(x.exception_type)}</div><div class="d">${esc(x.detail)}</div></div><div>${statusPill(x.status)}</div></li>`).join('');
+
+    // risks + RCM
+    $('risk-tbl').innerHTML = '<tr><th>Risk</th><th>Statement</th><th>Assertions</th><th>L × I</th><th>Inherent rating</th></tr>' +
+      D.risks.map(r => `<tr><td><b>${r.risk_id}</b><br>${esc(r.title)}</td><td>${esc(r.statement)}</td><td>${esc(r.assertions)}</td>
+        <td class="num">${r.likelihood} × ${r.impact} = ${r.severity_score}</td><td>${pill(r.rating)}</td></tr>`).join('');
+    const res = Object.fromEntries(S.map(s => [s.control_id, s]));
+    $('rcm-tbl').innerHTML = '<tr><th>Control</th><th>Domain</th><th>Risk</th><th>Owner</th><th>Frequency</th><th>Type</th><th>Result</th></tr>' +
+      D.controls.map((c, i) => `<tr class="expand" data-i="${i}"><td><b>${c.control_id}</b><br>${esc(c.control_title)}</td><td><span class="pill"><span class="dot" style="background:${DOM[c.itgc_domain]}"></span>${esc(c.itgc_domain)}</span></td>
+        <td>${c.risk_id}</td><td>${esc(c.control_owner)}</td><td>${esc(c.frequency)}</td><td>${esc(c.control_type)}<br><span style="color:var(--muted);font-size:12px">${esc(c.control_nature)}</span></td>
+        <td>${res[c.control_id].conclusion === 'Effective' ? '<span class="ok">✓ Effective</span>' : `<span style="color:var(--critical-ink);font-weight:700">✕ ${res[c.control_id].exceptions} exceptions</span>`}</td></tr>
+        <tr class="detail" id="d${i}" hidden><td colspan="7"><dl class="dl"><dt>Description</dt><dd>${esc(c.control_description)}</dd>
+        <dt>Test attribute</dt><dd>${esc(c.test_attribute_exception_definition)}</dd><dt>Procedure</dt><dd>${esc(c.test_of_operating_effectiveness)}</dd>
+        <dt>Population</dt><dd>${esc(c.test_population_source)}</dd><dt>Key control</dt><dd>${esc(c.key_control)}</dd></dl></td></tr>`).join('');
+    document.querySelectorAll('tr.expand').forEach(tr => tr.onclick = () => { const d = $('d' + tr.dataset.i); d.hidden = !d.hidden; });
+
+    // exception register
+    S.forEach(s => $('f-control').insertAdjacentHTML('beforeend', `<option value="${s.control_id}">${s.control_id} · ${esc(s.title)}</option>`));
+    const render = () => {
+      const c = $('f-control').value, st = $('f-status').value, t = $('f-tier').value, q = $('f-q').value.trim().toLowerCase();
+      const rows = X.filter(x => (!c || x.control_id === c) && (!st || x.status === st) && (!t || x.priority_tier === t) &&
+        (!q || Object.values(x).join(' ').toLowerCase().includes(q)));
+      $('x-count').textContent = `${rows.length} of ${X.length} exceptions`;
+      $('x-tbl').innerHTML = '<tr><th>Exception</th><th>Source record</th><th>Employee</th><th>System</th><th>Event</th><th>Required by</th><th>Actual</th><th>Detail</th><th>Status</th><th>Priority</th></tr>' +
+        rows.map(x => `<tr><td><b>${x.exception_id}</b><br><span style="font-size:12px;color:var(--ink-2)">${esc(x.exception_type)}</span></td><td>${esc(x.source_record_id)}</td>
+          <td>${esc(x.employee_id)}</td><td>${esc(x.system_id)}</td><td class="num">${x.event_date}</td><td class="num">${x.required_by}</td><td class="num">${x.actual_date || '—'}</td>
+          <td style="min-width:260px">${esc(x.detail)}</td><td>${statusPill(x.status)}</td><td>${pill(x.priority_tier)} <span style="font-size:12px;color:var(--muted)">${x.priority_score}</span></td></tr>`).join('');
+    };
+    ['f-control', 'f-status', 'f-tier', 'f-q'].forEach(id => $(id).addEventListener('input', render));
+    render();
+
+    // validation tables
+    $('sql-tbl').innerHTML = '<tr><th>Control</th><th>pandas</th><th>SQL</th><th>Match</th></tr>' + D.sql_reconciliation.map(r =>
+      `<tr><td>${r.control_id}</td><td class="num">${r.pandas_exceptions}</td><td class="num">${r.sql_exceptions}</td><td>${r.agree ? '<span class="ok">✓ identical</span>' : '✕'}</td></tr>`).join('');
+    $('ak-tbl').innerHTML = '<tr><th>Control</th><th>Seeded</th><th>Found</th><th>Recall</th><th>Precision</th></tr>' + D.answer_key_reconciliation.map(r =>
+      `<tr><td>${r.control_id}</td><td class="num">${r.seeded}</td><td class="num">${r.detected}</td><td class="num">${pct(r.recall)}</td><td class="num">${pct(r.precision)}</td></tr>`).join('');
+  }).catch(err => { $('kpis').innerHTML = `<div class="kpi">Could not load data/dashboard.json (${esc(err.message)}). Serve this folder over HTTP.</div>`; });
+})();
+</script>
+</body>
+</html>

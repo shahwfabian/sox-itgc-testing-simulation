@@ -1,0 +1,2 @@
+control_id,source_record_id,system_id,quarter,due_date,completion_date,reviewer_id,exception_type
+ITGC-UA-04,UAR-2025Q3-LSP,LSP,2025-Q3,2025-10-30,2025-11-11,E10996,Review completed after due date

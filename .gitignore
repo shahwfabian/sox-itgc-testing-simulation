@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/itgc_testing.sqlite
+.vercel
+~$*
+.DS_Store

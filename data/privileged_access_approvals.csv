@@ -1,0 +1,329 @@
+approval_id,request_ticket,employee_id,system_id,access_level_approved,approver_id,approver_role,approval_date
+PA50001,RITM102560,E10639,TMS,Administrator,E11086,Information Security Manager,2013-05-17
+PA50002,RITM102379,E10013,TMS,Superuser,E10141,Information Security Manager,2014-10-03
+PA50003,RITM102611,E10847,FCR,Database Administrator,E10141,Information Security Manager,2015-07-06
+PA50004,RITM102500,E10453,GL01,Database Administrator,E10669,Information Security Manager,2017-02-05
+PA50005,RITM102470,E10339,LSP,Administrator,E10141,Information Security Manager,2017-11-14
+PA50006,RITM102540,E10616,GL01,Administrator,E11086,Information Security Manager,2017-12-26
+PA50007,RITM102480,E10391,FCR,Database Administrator,E10669,Information Security Manager,2018-01-15
+PA50008,RITM102398,E10090,LSP,Administrator,E10765,Information Security Manager,2018-02-28
+PA50009,RITM102685,E11187,GL01,Superuser,E10669,Information Security Manager,2018-05-12
+PA50010,RITM102468,E10337,FCR,Database Administrator,E11086,Information Security Manager,2018-06-08
+PA50011,RITM102625,E10926,GL01,Administrator,E10324,Information Security Manager,2018-12-09
+PA50012,RITM102434,E10253,GL01,Administrator,E11086,Information Security Manager,2019-04-16
+PA50013,RITM102704,E11247,FCR,Superuser,E10765,Information Security Manager,2019-09-01
+PA50014,RITM102697,E11210,GL01,Database Administrator,E10765,Information Security Manager,2020-08-23
+PA50015,RITM102507,E10461,FCR,Administrator,E10141,Information Security Manager,2021-02-16
+PA50016,RITM102464,E10334,TMS,Administrator,E10141,Information Security Manager,2021-04-16
+PA50017,RITM102536,E10600,TMS,Superuser,E11086,Information Security Manager,2021-05-10
+PA50018,RITM102637,E10976,TMS,Database Administrator,E10141,Information Security Manager,2021-08-18
+PA50019,RITM102522,E10537,LSP,Superuser,E10669,Information Security Manager,2021-08-24
+PA50020,RITM102592,E10795,LSP,Administrator,E11086,Information Security Manager,2021-11-09
+PA50021,RITM102397,E10073,TMS,Administrator,E10765,Information Security Manager,2021-12-08
+PA50022,RITM102619,E10899,TMS,Superuser,E10765,Information Security Manager,2021-12-17
+PA50023,RITM102571,E10688,TMS,Administrator,E10141,Information Security Manager,2022-02-22
+PA50024,RITM102534,E10577,TMS,Superuser,E10324,Information Security Manager,2022-05-29
+PA50025,RITM102661,E11074,TMS,Database Administrator,E10669,Information Security Manager,2022-06-23
+PA50026,RITM102670,E11103,LSP,Administrator,E10324,Information Security Manager,2022-10-12
+PA50027,RITM102604,E10824,FCR,Superuser,E10765,Information Security Manager,2022-11-05
+PA50028,RITM102473,E10379,GL01,Administrator,E10324,Information Security Manager,2023-01-16
+PA50029,RITM102477,E10384,TMS,Administrator,E11086,Information Security Manager,2023-02-15
+PA50030,RITM102706,E11250,TMS,Database Administrator,E11086,Information Security Manager,2023-04-18
+PA50031,RITM102566,E10655,TMS,Superuser,E10765,Information Security Manager,2023-05-12
+PA50032,RITM102471,E10355,FCR,Superuser,E10141,Information Security Manager,2023-07-23
+PA50033,RITM102456,E10302,FCR,Administrator,E10141,Information Security Manager,2023-09-11
+PA50034,RITM102509,E10468,FCR,Database Administrator,E10141,Information Security Manager,2023-12-22
+PA50035,RITM102601,E10810,TMS,Administrator,E10765,Information Security Manager,2024-01-14
+PA50036,RITM102504,E10457,TMS,Administrator,E11086,Information Security Manager,2024-02-14
+PA50037,RITM102698,E11215,TMS,Superuser,E10324,Information Security Manager,2024-04-02
+PA50038,RITM102545,E10624,GL01,Superuser,E10669,Information Security Manager,2024-04-30
+PA50039,RITM102555,E10630,FCR,Database Administrator,E10765,Information Security Manager,2024-05-08
+PA50040,RITM102383,E10022,LSP,Superuser,E11086,Information Security Manager,2024-06-06
+PA50041,RITM102399,E10092,LSP,Database Administrator,E10141,Information Security Manager,2024-06-15
+PA50042,RITM102683,E11180,LSP,Administrator,E10669,Information Security Manager,2024-06-28
+PA50043,RITM102378,E10005,FCR,Administrator,E10324,Information Security Manager,2024-07-02
+PA50044,RITM102458,E10307,LSP,Database Administrator,E10669,Information Security Manager,2024-07-29
+PA50045,RITM102442,E10270,TMS,Administrator,E10765,Information Security Manager,2024-08-30
+PA50046,RITM102657,E11039,GL01,Database Administrator,E10669,Information Security Manager,2024-09-07
+PA50047,RITM102567,E10663,FCR,Administrator,E10765,Information Security Manager,2024-09-13
+PA50048,RITM102676,E11133,GL01,Database Administrator,E10669,Information Security Manager,2024-09-23
+PA50049,RITM102615,E10890,LSP,Administrator,E10141,Information Security Manager,2024-11-10
+PA50050,RITM102688,E11187,GL01,Administrator,E10765,Information Security Manager,2024-12-31
+PA50051,RITM102380,E10013,TMS,Superuser,E10324,Information Security Manager,2024-12-31
+PA50052,RITM102607,E10824,LSP,Database Administrator,E10765,Information Security Manager,2025-01-01
+PA50053,RITM102526,E10561,GL01,Superuser,E10765,Information Security Manager,2025-01-03
+PA50054,RITM102467,E10334,TMS,Database Administrator,E10765,Information Security Manager,2025-01-07
+PA50055,RITM102528,E10563,LSP,Database Administrator,E10765,Information Security Manager,2025-01-07
+PA50056,RITM102700,E11215,GL01,Superuser,E10765,Information Security Manager,2025-01-07
+PA50057,RITM102530,E10563,GL01,Superuser,E11086,Information Security Manager,2025-01-08
+PA50058,RITM102419,E10180,LSP,Database Administrator,E10324,Information Security Manager,2025-01-08
+PA50059,RITM102662,E11074,GL01,Administrator,E11086,Information Security Manager,2025-01-08
+PA50060,RITM102385,E10023,TMS,Database Administrator,E10765,Information Security Manager,2025-01-09
+PA50061,RITM102618,E10890,GL01,Administrator,E10765,Information Security Manager,2025-01-10
+PA50062,RITM102481,E10406,LSP,Administrator,E11086,Information Security Manager,2025-01-11
+PA50063,RITM102469,E10337,FCR,Database Administrator,E10324,Information Security Manager,2025-01-12
+PA50064,RITM102584,E10757,LSP,Superuser,E10324,Information Security Manager,2025-01-12
+PA50065,RITM102466,E10334,GL01,Administrator,E10324,Information Security Manager,2025-01-13
+PA50066,RITM102391,E10040,TMS,Administrator,E10324,Information Security Manager,2025-01-13
+PA50067,RITM102679,E11170,FCR,Superuser,E10324,Information Security Manager,2025-01-14
+PA50068,RITM102608,E10828,FCR,Administrator,E10765,Information Security Manager,2025-01-14
+PA50069,RITM102415,E10135,LSP,Database Administrator,E10765,Information Security Manager,2025-01-14
+PA50070,RITM102702,E11219,LSP,Administrator,E10324,Information Security Manager,2025-01-15
+PA50071,RITM102446,E10279,TMS,Superuser,E10669,Information Security Manager,2025-01-16
+PA50072,RITM102641,E10984,LSP,Administrator,E11086,Information Security Manager,2025-01-18
+PA50073,RITM102394,E10049,LSP,Database Administrator,E10324,Information Security Manager,2025-01-18
+PA50074,RITM102694,E11206,GL01,Administrator,E10669,Information Security Manager,2025-01-22
+PA50075,RITM102441,E10266,GL01,Administrator,E10141,Information Security Manager,2025-01-22
+PA50076,RITM102631,E10951,FCR,Superuser,E10669,Information Security Manager,2025-01-24
+PA50077,RITM102462,E10331,LSP,Database Administrator,E10765,Information Security Manager,2025-01-25
+PA50078,RITM102548,E10624,LSP,Superuser,E10765,Information Security Manager,2025-01-26
+PA50079,RITM102511,E10468,LSP,Superuser,E10324,Information Security Manager,2025-01-26
+PA50080,RITM102505,E10457,GL01,Database Administrator,E10669,Information Security Manager,2025-01-30
+PA50081,RITM102382,E10013,FCR,Administrator,E10141,Information Security Manager,2025-01-31
+PA50082,RITM102541,E10620,LSP,Database Administrator,E10765,Information Security Manager,2025-02-01
+PA50083,RITM102474,E10379,GL01,Administrator,E10324,Information Security Manager,2025-02-01
+PA50084,RITM102395,E10049,TMS,Database Administrator,E10669,Information Security Manager,2025-02-02
+PA50085,RITM102692,E11199,FCR,Database Administrator,E10141,Information Security Manager,2025-02-02
+PA50086,RITM102705,E11247,GL01,Administrator,E11086,Information Security Manager,2025-02-03
+PA50087,RITM102447,E10279,LSP,Administrator,E11086,Information Security Manager,2025-02-03
+PA50088,RITM102529,E10563,TMS,Administrator,E10141,Information Security Manager,2025-02-04
+PA50089,RITM102665,E11075,LSP,Superuser,E10669,Information Security Manager,2025-02-05
+PA50090,RITM102547,E10624,LSP,Superuser,E11086,Information Security Manager,2025-02-05
+PA50091,RITM102691,E11197,FCR,Administrator,E10765,Information Security Manager,2025-02-05
+PA50092,RITM102381,E10013,FCR,Administrator,E10324,Information Security Manager,2025-02-05
+PA50093,RITM102649,E11033,LSP,Superuser,E10765,Information Security Manager,2025-02-05
+PA50094,RITM102527,E10563,FCR,Administrator,E10324,Information Security Manager,2025-02-06
+PA50095,RITM102575,E10714,FCR,Database Administrator,E10141,Information Security Manager,2025-02-10
+PA50096,RITM102634,E10958,FCR,Database Administrator,E10141,Information Security Manager,2025-02-11
+PA50097,RITM102623,E10906,GL01,Database Administrator,E10324,Information Security Manager,2025-02-12
+PA50098,RITM102546,E10624,TMS,Administrator,E10669,Information Security Manager,2025-02-14
+PA50099,RITM102508,E10461,GL01,Administrator,E10765,Information Security Manager,2025-02-18
+PA50100,RITM102406,E10115,LSP,Superuser,E10669,Information Security Manager,2025-02-18
+PA50101,RITM102396,E10049,LSP,Administrator,E10324,Information Security Manager,2025-02-19
+PA50102,RITM102671,E11115,FCR,Administrator,E11086,Information Security Manager,2025-02-19
+PA50103,RITM102558,E10632,LSP,Administrator,E10669,Information Security Manager,2025-02-21
+PA50104,RITM102593,E10800,FCR,Database Administrator,E10765,Information Security Manager,2025-02-21
+PA50105,RITM102492,E10426,GL01,Administrator,E10141,Information Security Manager,2025-02-22
+PA50106,RITM102703,E11219,TMS,Database Administrator,E10324,Information Security Manager,2025-02-22
+PA50107,RITM102450,E10284,TMS,Administrator,E11086,Information Security Manager,2025-02-23
+PA50108,RITM102617,E10890,TMS,Database Administrator,E10765,Information Security Manager,2025-02-23
+PA50109,RITM102693,E11206,LSP,Administrator,E10765,Information Security Manager,2025-02-25
+PA50110,RITM102633,E10958,GL01,Administrator,E11086,Information Security Manager,2025-02-25
+PA50111,RITM102653,E11035,LSP,Administrator,E10669,Information Security Manager,2025-02-26
+PA50112,RITM102635,E10958,TMS,Administrator,E10765,Information Security Manager,2025-02-27
+PA50113,RITM102525,E10561,FCR,Administrator,E10765,Information Security Manager,2025-03-02
+PA50114,RITM102647,E11014,LSP,Superuser,E10669,Information Security Manager,2025-03-06
+PA50115,RITM102655,E11036,LSP,Superuser,E10324,Information Security Manager,2025-03-08
+PA50116,RITM102701,E11215,TMS,Administrator,E10324,Information Security Manager,2025-03-09
+PA50117,RITM102668,E11094,LSP,Administrator,E11086,Information Security Manager,2025-03-09
+PA50118,RITM102588,E10774,LSP,Database Administrator,E11086,Information Security Manager,2025-03-10
+PA50119,RITM102596,E10802,FCR,Administrator,E10669,Information Security Manager,2025-03-12
+PA50120,RITM102443,E10270,GL01,Administrator,E10765,Information Security Manager,2025-03-12
+PA50121,RITM102487,E10411,LSP,Administrator,E10141,Information Security Manager,2025-03-14
+PA50122,RITM102556,E10630,TMS,Administrator,E10324,Information Security Manager,2025-03-15
+PA50123,RITM102580,E10735,LSP,Database Administrator,E10765,Information Security Manager,2025-03-16
+PA50124,RITM102454,E10291,FCR,Database Administrator,E10669,Information Security Manager,2025-03-16
+PA50125,RITM102589,E10774,GL01,Administrator,E11086,Information Security Manager,2025-03-16
+PA50126,RITM102416,E10174,LSP,Database Administrator,E10141,Information Security Manager,2025-03-16
+PA50127,RITM102699,E11215,GL01,Administrator,E10141,Information Security Manager,2025-03-17
+PA50128,RITM102644,E11006,LSP,Administrator,E10141,Information Security Manager,2025-03-17
+PA50129,RITM102646,E11014,TMS,Superuser,E10765,Information Security Manager,2025-03-17
+PA50130,RITM102595,E10802,TMS,Database Administrator,E10669,Information Security Manager,2025-03-17
+PA50131,RITM102422,E10211,LSP,Database Administrator,E10669,Information Security Manager,2025-03-20
+PA50132,RITM102667,E11094,LSP,Administrator,E11086,Information Security Manager,2025-03-21
+PA50133,RITM102627,E10927,LSP,Database Administrator,E10765,Information Security Manager,2025-03-24
+PA50134,RITM102562,E10639,LSP,Superuser,E10669,Information Security Manager,2025-03-24
+PA50135,RITM102561,E10639,FCR,Database Administrator,E10324,Information Security Manager,2025-03-25
+PA50136,RITM102493,E10426,TMS,Administrator,E10669,Information Security Manager,2025-03-25
+PA50137,RITM102510,E10468,FCR,Administrator,E10324,Information Security Manager,2025-03-26
+PA50138,RITM102435,E10253,FCR,Administrator,E11086,Information Security Manager,2025-03-27
+PA50139,RITM102537,E10600,TMS,Administrator,E10324,Information Security Manager,2025-03-29
+PA50140,RITM102387,E10035,LSP,Administrator,E11086,Information Security Manager,2025-03-30
+PA50141,RITM102472,E10376,LSP,Superuser,E11086,Information Security Manager,2025-04-01
+PA50142,RITM102570,E10676,FCR,Administrator,E11086,Information Security Manager,2025-04-02
+PA50143,RITM102591,E10774,FCR,Superuser,E10141,Information Security Manager,2025-04-02
+PA50144,RITM102564,E10654,TMS,Administrator,E10765,Information Security Manager,2025-04-06
+PA50145,RITM102424,E10211,TMS,Administrator,E10765,Information Security Manager,2025-04-07
+PA50146,RITM102459,E10307,FCR,Database Administrator,E10141,Information Security Manager,2025-04-07
+PA50147,RITM102476,E10379,TMS,Database Administrator,E11086,Information Security Manager,2025-04-11
+PA50148,RITM102684,E11180,FCR,Superuser,E10141,Information Security Manager,2025-04-11
+PA50149,RITM102408,E10126,FCR,Database Administrator,E10324,Information Security Manager,2025-04-16
+PA50150,RITM102390,E10035,FCR,Administrator,E11086,Information Security Manager,2025-04-19
+PA50151,RITM102678,E11168,LSP,Administrator,E10669,Information Security Manager,2025-04-19
+PA50152,RITM102485,E10411,LSP,Superuser,E10669,Information Security Manager,2025-04-20
+PA50153,RITM102642,E10984,TMS,Superuser,E10669,Information Security Manager,2025-04-21
+PA50154,RITM102495,E10426,LSP,Administrator,E10141,Information Security Manager,2025-04-26
+PA50155,RITM102640,E10976,LSP,Database Administrator,E10669,Information Security Manager,2025-04-28
+PA50156,RITM102572,E10688,GL01,Superuser,E10669,Information Security Manager,2025-04-28
+PA50157,RITM102645,E11014,GL01,Administrator,E10765,Information Security Manager,2025-04-30
+PA50158,RITM102402,E10095,LSP,Superuser,E10669,Information Security Manager,2025-05-04
+PA50159,RITM102582,E10753,TMS,Administrator,E10141,Information Security Manager,2025-05-05
+PA50160,RITM102531,E10566,GL01,Administrator,E10141,Information Security Manager,2025-05-07
+PA50161,RITM102594,E10800,LSP,Database Administrator,E11086,Information Security Manager,2025-05-07
+PA50162,RITM102624,E10912,LSP,Database Administrator,E10765,Information Security Manager,2025-05-08
+PA50163,RITM102497,E10441,LSP,Superuser,E10324,Information Security Manager,2025-05-09
+PA50164,RITM102494,E10426,FCR,Superuser,E10669,Information Security Manager,2025-05-10
+PA50165,RITM102539,E10600,TMS,Database Administrator,E10141,Information Security Manager,2025-05-11
+PA50166,RITM102680,E11170,LSP,Database Administrator,E10669,Information Security Manager,2025-05-11
+PA50167,RITM102482,E10406,FCR,Superuser,E10324,Information Security Manager,2025-05-11
+PA50168,RITM102519,E10524,FCR,Superuser,E11086,Information Security Manager,2025-05-11
+PA50169,RITM102432,E10224,TMS,Administrator,E10669,Information Security Manager,2025-05-13
+PA50170,RITM102393,E10040,GL01,Superuser,E10765,Information Security Manager,2025-05-13
+PA50171,RITM102690,E11197,TMS,Administrator,E10141,Information Security Manager,2025-05-14
+PA50172,RITM102579,E10735,LSP,Database Administrator,E11086,Information Security Manager,2025-05-14
+PA50173,RITM102412,E10132,GL01,Database Administrator,E10765,Information Security Manager,2025-05-19
+PA50174,RITM102501,E10453,GL01,Database Administrator,E11086,Information Security Manager,2025-05-21
+PA50175,RITM102576,E10714,GL01,Superuser,E10141,Information Security Manager,2025-05-27
+PA50176,RITM102483,E10410,LSP,Administrator,E10669,Information Security Manager,2025-05-27
+PA50177,RITM102664,E11074,FCR,Database Administrator,E10141,Information Security Manager,2025-05-28
+PA50178,RITM102563,E10654,FCR,Superuser,E10141,Information Security Manager,2025-05-30
+PA50179,RITM102677,E11133,GL01,Database Administrator,E11086,Information Security Manager,2025-05-30
+PA50180,RITM102516,E10513,TMS,Superuser,E10765,Information Security Manager,2025-05-30
+PA50181,RITM102656,E11036,TMS,Superuser,E10765,Information Security Manager,2025-05-31
+PA50182,RITM102603,E10810,LSP,Administrator,E10669,Information Security Manager,2025-06-02
+PA50183,RITM102674,E11115,TMS,Superuser,E10141,Information Security Manager,2025-06-02
+PA50184,RITM102652,E11035,LSP,Administrator,E10324,Information Security Manager,2025-06-02
+PA50185,RITM102565,E10654,GL01,Administrator,E10141,Information Security Manager,2025-06-03
+PA50186,RITM102503,E10453,TMS,Superuser,E11086,Information Security Manager,2025-06-04
+PA50187,RITM102597,E10807,TMS,Superuser,E11086,Information Security Manager,2025-06-06
+PA50188,RITM102449,E10279,FCR,Administrator,E11086,Information Security Manager,2025-06-07
+PA50189,RITM102621,E10899,FCR,Administrator,E10324,Information Security Manager,2025-06-09
+PA50190,RITM102606,E10824,GL01,Administrator,E10141,Information Security Manager,2025-06-09
+PA50191,RITM102696,E11206,TMS,Superuser,E10669,Information Security Manager,2025-06-10
+PA50192,RITM102417,E10180,FCR,Administrator,E10669,Information Security Manager,2025-06-11
+PA50193,RITM102421,E10211,FCR,Administrator,E10669,Information Security Manager,2025-06-11
+PA50194,RITM102460,E10307,GL01,Administrator,E10669,Information Security Manager,2025-06-11
+PA50195,RITM102484,E10411,TMS,Superuser,E11086,Information Security Manager,2025-06-11
+PA50196,RITM102654,E11036,GL01,Database Administrator,E10669,Information Security Manager,2025-06-14
+PA50197,RITM102420,E10180,GL01,Superuser,E10141,Information Security Manager,2025-06-15
+PA50198,RITM102465,E10334,TMS,Database Administrator,E10324,Information Security Manager,2025-06-15
+PA50199,RITM102433,E10224,GL01,Database Administrator,E10141,Information Security Manager,2025-06-16
+PA50200,RITM102620,E10899,GL01,Superuser,E10324,Information Security Manager,2025-06-17
+PA50201,RITM102573,E10688,LSP,Superuser,E10669,Information Security Manager,2025-06-17
+PA50202,RITM102521,E10524,TMS,Database Administrator,E10141,Information Security Manager,2025-06-18
+PA50203,RITM102448,E10279,FCR,Superuser,E11086,Information Security Manager,2025-06-20
+PA50204,RITM102600,E10807,LSP,Superuser,E10141,Information Security Manager,2025-06-20
+PA50205,RITM102686,E11187,TMS,Administrator,E10324,Information Security Manager,2025-06-21
+PA50206,RITM102628,E10927,LSP,Administrator,E10765,Information Security Manager,2025-06-21
+PA50207,RITM102535,E10592,FCR,Administrator,E11086,Information Security Manager,2025-06-22
+PA50208,RITM102403,E10095,FCR,Administrator,E10765,Information Security Manager,2025-06-23
+PA50209,RITM102413,E10132,FCR,Superuser,E10669,Information Security Manager,2025-06-25
+PA50210,RITM102590,E10774,LSP,Superuser,E11086,Information Security Manager,2025-06-26
+PA50211,RITM102523,E10537,GL01,Database Administrator,E10324,Information Security Manager,2025-06-28
+PA50212,RITM102498,E10441,FCR,Administrator,E10765,Information Security Manager,2025-06-30
+PA50213,RITM102407,E10120,TMS,Database Administrator,E10324,Information Security Manager,2025-06-30
+PA50214,RITM102499,E10446,FCR,Database Administrator,E11086,Information Security Manager,2025-07-02
+PA50215,RITM990002,E11028,GL01,Administrator,E10141,Information Security Manager,2025-07-03
+PA50216,RITM102426,E10216,GL01,Administrator,E11086,Information Security Manager,2025-07-07
+PA50217,RITM102431,E10224,GL01,Superuser,E10141,Information Security Manager,2025-07-08
+PA50218,RITM102629,E10927,LSP,Administrator,E10324,Information Security Manager,2025-07-12
+PA50219,RITM102658,E11039,FCR,Database Administrator,E10141,Information Security Manager,2025-07-12
+PA50220,RITM102666,E11075,FCR,Database Administrator,E10765,Information Security Manager,2025-07-13
+PA50221,RITM102609,E10828,TMS,Superuser,E11086,Information Security Manager,2025-07-14
+PA50222,RITM102515,E10513,TMS,Administrator,E10765,Information Security Manager,2025-07-14
+PA50223,RITM102479,E10384,TMS,Administrator,E10765,Information Security Manager,2025-07-14
+PA50224,RITM102574,E10714,FCR,Administrator,E11086,Information Security Manager,2025-07-14
+PA50225,RITM102514,E10513,TMS,Superuser,E10669,Information Security Manager,2025-07-15
+PA50226,RITM102542,E10620,GL01,Administrator,E10669,Information Security Manager,2025-07-15
+PA50227,RITM102444,E10270,FCR,Administrator,E11086,Information Security Manager,2025-07-16
+PA50228,RITM102423,E10211,GL01,Superuser,E11086,Information Security Manager,2025-07-19
+PA50229,RITM102568,E10663,GL01,Superuser,E10324,Information Security Manager,2025-07-21
+PA50230,RITM102452,E10284,FCR,Superuser,E11086,Information Security Manager,2025-07-23
+PA50231,RITM102520,E10524,FCR,Administrator,E11086,Information Security Manager,2025-07-23
+PA50232,RITM102663,E11074,LSP,Administrator,E10141,Information Security Manager,2025-07-25
+PA50233,RITM102518,E10524,TMS,Administrator,E10141,Information Security Manager,2025-07-26
+PA50234,RITM102552,E10628,LSP,Superuser,E10141,Information Security Manager,2025-07-27
+PA50235,RITM102602,E10810,TMS,Database Administrator,E10765,Information Security Manager,2025-07-27
+PA50236,RITM990004,E11199,GL01,Administrator,E10141,Information Security Manager,2025-07-28
+PA50237,RITM102551,E10628,LSP,Database Administrator,E10141,Information Security Manager,2025-07-29
+PA50238,RITM102404,E10115,FCR,Administrator,E10141,Information Security Manager,2025-08-04
+PA50239,RITM102598,E10807,FCR,Administrator,E10141,Information Security Manager,2025-08-04
+PA50240,RITM102401,E10095,TMS,Database Administrator,E10669,Information Security Manager,2025-08-04
+PA50241,RITM102636,E10963,TMS,Administrator,E10141,Information Security Manager,2025-08-10
+PA50242,RITM102659,E11044,GL01,Superuser,E10141,Information Security Manager,2025-08-10
+PA50243,RITM102461,E10307,FCR,Administrator,E10765,Information Security Manager,2025-08-11
+PA50244,RITM102673,E11115,LSP,Administrator,E11086,Information Security Manager,2025-08-12
+PA50245,RITM102616,E10890,TMS,Administrator,E10141,Information Security Manager,2025-08-15
+PA50246,RITM102513,E10480,TMS,Database Administrator,E10141,Information Security Manager,2025-08-20
+PA50247,RITM102512,E10480,FCR,Administrator,E10765,Information Security Manager,2025-08-24
+PA50248,RITM102388,E10035,TMS,Database Administrator,E10141,Information Security Manager,2025-08-25
+PA50249,RITM102577,E10714,TMS,Administrator,E11086,Information Security Manager,2025-08-26
+PA50250,RITM102445,E10270,GL01,Administrator,E10765,Information Security Manager,2025-08-27
+PA50251,RITM102632,E10951,TMS,Superuser,E10669,Information Security Manager,2025-08-28
+PA50252,RITM102578,E10735,FCR,Superuser,E10141,Information Security Manager,2025-08-29
+PA50253,RITM102538,E10600,LSP,Database Administrator,E10765,Information Security Manager,2025-08-31
+PA50254,RITM102675,E11131,TMS,Database Administrator,E10324,Information Security Manager,2025-09-01
+PA50255,RITM102610,E10828,LSP,Administrator,E11086,Information Security Manager,2025-09-09
+PA50256,RITM102612,E10869,TMS,Administrator,E10141,Information Security Manager,2025-09-09
+PA50257,RITM102414,E10132,GL01,Superuser,E10141,Information Security Manager,2025-09-09
+PA50258,RITM102486,E10411,GL01,Database Administrator,E10765,Information Security Manager,2025-09-10
+PA50259,RITM102418,E10180,TMS,Administrator,E11086,Information Security Manager,2025-09-10
+PA50260,RITM102550,E10628,GL01,Administrator,E10141,Information Security Manager,2025-09-13
+PA50261,RITM102506,E10457,TMS,Administrator,E10669,Information Security Manager,2025-09-15
+PA50262,RITM102651,E11035,TMS,Database Administrator,E10324,Information Security Manager,2025-09-16
+PA50263,RITM102389,E10035,TMS,Administrator,E10324,Information Security Manager,2025-09-17
+PA50264,RITM102386,E10023,FCR,Database Administrator,E11086,Information Security Manager,2025-09-20
+PA50265,RITM102660,E11048,GL01,Administrator,E10141,Information Security Manager,2025-09-23
+PA50266,RITM102524,E10537,GL01,Administrator,E10765,Information Security Manager,2025-09-23
+PA50267,RITM102392,E10040,FCR,Administrator,E11086,Information Security Manager,2025-09-23
+PA50268,RITM102643,E11006,FCR,Administrator,E10765,Information Security Manager,2025-09-23
+PA50269,RITM102491,E10422,GL01,Database Administrator,E11086,Information Security Manager,2025-09-23
+PA50270,RITM990003,E10217,TMS,Administrator,E10324,Information Security Manager,2025-09-24
+PA50271,RITM102599,E10807,FCR,Administrator,E11086,Information Security Manager,2025-09-27
+PA50272,RITM102533,E10576,LSP,Administrator,E10141,Information Security Manager,2025-09-27
+PA50273,RITM102669,E11094,TMS,Administrator,E10141,Information Security Manager,2025-09-28
+PA50274,RITM102630,E10951,FCR,Administrator,E10669,Information Security Manager,2025-09-28
+PA50275,RITM102400,E10095,TMS,Administrator,E10141,Information Security Manager,2025-09-30
+PA50276,RITM102453,E10291,LSP,Administrator,E10141,Information Security Manager,2025-10-01
+PA50277,RITM102682,E11177,TMS,Administrator,E10141,Information Security Manager,2025-10-01
+PA50278,RITM102428,E10217,TMS,Database Administrator,E10141,Information Security Manager,2025-10-02
+PA50279,RITM102583,E10753,LSP,Administrator,E10669,Information Security Manager,2025-10-05
+PA50280,RITM102687,E11187,GL01,Administrator,E10765,Information Security Manager,2025-10-06
+PA50281,RITM102569,E10663,LSP,Administrator,E11086,Information Security Manager,2025-10-06
+PA50282,RITM102427,E10217,LSP,Administrator,E10324,Information Security Manager,2025-10-07
+PA50283,RITM102409,E10126,TMS,Superuser,E11086,Information Security Manager,2025-10-08
+PA50284,RITM102384,E10022,LSP,Database Administrator,E10765,Information Security Manager,2025-10-10
+PA50285,RITM102440,E10266,GL01,Administrator,E10669,Information Security Manager,2025-10-12
+PA50286,RITM102489,E10422,TMS,Administrator,E10669,Information Security Manager,2025-10-13
+PA50287,RITM102502,E10453,GL01,Administrator,E10669,Information Security Manager,2025-10-14
+PA50288,RITM102553,E10629,TMS,Database Administrator,E11086,Information Security Manager,2025-10-14
+PA50289,RITM102554,E10629,LSP,Administrator,E10141,Information Security Manager,2025-10-14
+PA50290,RITM102557,E10631,GL01,Database Administrator,E11086,Information Security Manager,2025-10-14
+PA50291,RITM102648,E11028,GL01,Superuser,E10765,Information Security Manager,2025-10-16
+PA50292,RITM102425,E10216,FCR,Database Administrator,E10669,Information Security Manager,2025-10-18
+PA50293,RITM102405,E10115,TMS,Administrator,E10141,Information Security Manager,2025-10-18
+PA50294,RITM102695,E11206,TMS,Superuser,E10669,Information Security Manager,2025-10-19
+PA50295,RITM102475,E10379,FCR,Administrator,E10765,Information Security Manager,2025-10-20
+PA50296,RITM102410,E10126,TMS,Administrator,E10141,Information Security Manager,2025-10-23
+PA50297,RITM102532,E10566,TMS,Administrator,E10324,Information Security Manager,2025-10-25
+PA50298,RITM102626,E10926,GL01,Superuser,E10324,Information Security Manager,2025-10-28
+PA50299,RITM102439,E10266,GL01,Database Administrator,E10141,Information Security Manager,2025-10-28
+PA50300,RITM102543,E10620,FCR,Database Administrator,E10669,Information Security Manager,2025-10-28
+PA50301,RITM102544,E10620,TMS,Administrator,E10765,Information Security Manager,2025-10-29
+PA50302,RITM102622,E10906,GL01,Administrator,E10141,Information Security Manager,2025-11-01
+PA50303,RITM102488,E10422,LSP,Superuser,E10669,Information Security Manager,2025-11-02
+PA50304,RITM102429,E10217,TMS,Administrator,E10324,Information Security Manager,2025-11-03
+PA50305,RITM102613,E10869,LSP,Superuser,E11086,Information Security Manager,2025-11-07
+PA50306,RITM102517,E10521,TMS,Administrator,E10141,Information Security Manager,2025-11-08
+PA50307,RITM102411,E10126,LSP,Database Administrator,E10324,Information Security Manager,2025-11-09
+PA50308,RITM102559,E10632,TMS,Administrator,E10141,Information Security Manager,2025-11-10
+PA50309,RITM102681,E11170,TMS,Database Administrator,E10141,Information Security Manager,2025-11-12
+PA50310,RITM102457,E10302,TMS,Administrator,E10141,Information Security Manager,2025-11-18
+PA50311,RITM102438,E10263,TMS,Superuser,E10669,Information Security Manager,2025-11-19
+PA50312,RITM102451,E10284,FCR,Administrator,E10324,Information Security Manager,2025-11-22
+PA50313,RITM102478,E10384,FCR,Administrator,E10765,Information Security Manager,2025-11-26
+PA50314,RITM102605,E10824,LSP,Database Administrator,E11086,Information Security Manager,2025-11-27
+PA50315,RITM102639,E10976,TMS,Database Administrator,E10324,Information Security Manager,2025-11-29
+PA50316,RITM102650,E11035,LSP,Administrator,E11086,Information Security Manager,2025-11-29
+PA50317,RITM102437,E10263,LSP,Administrator,E10765,Information Security Manager,2025-11-29
+PA50318,RITM102463,E10333,GL01,Database Administrator,E10141,Information Security Manager,2025-11-30
+PA50319,RITM102587,E10757,FCR,Administrator,E11086,Information Security Manager,2025-11-30
+PA50320,RITM102672,E11115,FCR,Database Administrator,E11086,Information Security Manager,2025-12-01
+PA50321,RITM102614,E10870,TMS,Database Administrator,E10141,Information Security Manager,2025-12-01
+PA50322,RITM102490,E10422,TMS,Database Administrator,E10324,Information Security Manager,2025-12-02
+PA50323,RITM102581,E10753,FCR,Administrator,E10765,Information Security Manager,2025-12-02
+PA50324,RITM102585,E10757,GL01,Administrator,E10765,Information Security Manager,2025-12-02
+PA50325,RITM102586,E10757,TMS,Database Administrator,E11086,Information Security Manager,2025-12-03
+PA50326,RITM102549,E10628,FCR,Administrator,E10141,Information Security Manager,2025-12-03
+PA50327,RITM102436,E10263,LSP,Database Administrator,E10669,Information Security Manager,2025-12-09
+PA50328,RITM990001,E11033,GL01,Administrator,E10669,Information Security Manager,2025-12-30

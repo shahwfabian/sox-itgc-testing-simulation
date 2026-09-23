@@ -1,0 +1,11 @@
+control_id,source_record_id,employee_id,system_id,access_level,request_ticket,date_granted,approval_id,access_level_approved,approved_system,approval_date,exception_type
+ITGC-PA-01,G201970,E10279,TMS,Superuser,RITM102446,2025-01-14,PA50071,Superuser,TMS,2025-01-16,Approved after grant; 
+ITGC-PA-01,G202043,E10976,LSP,Database Administrator,RITM102638,2025-02-07,,,,,No approval record in register; 
+ITGC-PA-01,G202123,E10291,LSP,Superuser,RITM102455,2025-03-13,,,,,No approval record in register; 
+ITGC-PA-01,G202186,E11197,LSP,Administrator,RITM102689,2025-04-14,,,,,No approval record in register; 
+ITGC-PA-01,G202350,E10537,FCR,Database Administrator,RITM102523,2025-06-30,PA50211,Database Administrator,GL01,2025-06-28,Different system; 
+ITGC-PA-01,G202358,E10446,FCR,Superuser,RITM102499,2025-07-03,PA50214,Database Administrator,FCR,2025-07-02,Level mismatch; 
+ITGC-PA-01,G202461,E10432,LSP,Superuser,RITM102496,2025-08-18,,,,,No approval record in register; 
+ITGC-PA-01,G202463,E10890,TMS,Superuser,RITM102616,2025-08-18,PA50245,Administrator,TMS,2025-08-15,Level mismatch; 
+ITGC-PA-01,G202524,E10807,FCR,Administrator,RITM102599,2025-09-17,PA50271,Administrator,FCR,2025-09-27,Approved after grant; 
+ITGC-PA-01,G202674,E10217,TMS,Database Administrator,RITM102430,2025-11-25,,,,,No approval record in register; 

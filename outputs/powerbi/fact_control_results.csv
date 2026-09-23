@@ -1,0 +1,10 @@
+control_id,domain,title,risk_id,risk_severity_score,risk_rating,control_type,frequency,population,exceptions,unique_employees,exception_rate,open_exceptions,median_age_days,max_priority_score,conclusion,deficiency_assessment
+ITGC-UA-01,User Access,New user access approval,R-01,12,High,Preventive,As needed (per event),501,28,28,0.0559,0,218.5,36.0,Exception Noted,Deficiency - evaluate for significant deficiency (aggregation & compensating controls)
+ITGC-UA-02,User Access,Timely revocation of terminated users,R-02,15,Critical,Preventive,As needed (per event),392,20,14,0.051,11,146.0,55.0,Exception Noted,Deficiency - evaluate for significant deficiency (aggregation & compensating controls)
+ITGC-UA-03,User Access,HR separation notification,R-02,15,Critical,Preventive,As needed (per event),185,11,11,0.0595,0,185.0,45.0,Exception Noted,Deficiency - evaluate for significant deficiency (aggregation & compensating controls)
+ITGC-UA-04,User Access,Quarterly user access review,R-01,12,High,Detective,Quarterly,16,1,1,0.0625,0,91.0,18.0,Exception Noted,Deficiency - evaluate for significant deficiency (aggregation & compensating controls)
+ITGC-PA-01,Privileged Access,Privileged access authorization,R-03,15,Critical,Preventive,As needed (per event),280,10,10,0.0357,5,212.5,54.3,Exception Noted,Control deficiency
+ITGC-PA-02,Privileged Access,Independent approval of privileged access,R-03,15,Critical,Preventive,As needed (per event),275,0,0,0.0,0,0.0,0.0,Effective,No exceptions noted
+ITGC-CM-01,Change Management,Change approval prior to implementation,R-04,12,High,Preventive,As needed (per event),620,32,22,0.0516,0,182.5,36.0,Exception Noted,Deficiency - evaluate for significant deficiency (aggregation & compensating controls)
+ITGC-CM-02,Change Management,Documented rollback plan,R-05,6,Medium,Preventive,As needed (per event),620,22,18,0.0355,0,170.0,18.0,Exception Noted,Control deficiency
+ITGC-CM-03,Change Management,Segregation of duties in change approval,R-04,12,High,Preventive,As needed (per event),610,0,0,0.0,0,0.0,0.0,Effective,No exceptions noted

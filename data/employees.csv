@@ -1,0 +1,1251 @@
+employee_id,name,department,job_title,hire_date,role_group
+E10001,Marcus Reyes,Finance & Accounting,GL Analyst,2019-09-27,Staff
+E10002,Isaac Schultz,Finance & Accounting,Staff Accountant,2024-09-03,Staff
+E10003,Isaac Schultz,Lending Operations,Underwriter,2024-05-23,Staff
+E10004,Chloe Johansson,Lending Operations,Underwriter,2021-08-03,System Owner
+E10005,Zara Ferreira,Information Technology,Release Engineer,2023-04-06,Staff
+E10006,Ethan Brennan,Customer Operations,Client Service Rep,2024-04-22,Staff
+E10007,Avery Singh,Finance & Accounting,Senior Accountant,2020-02-03,Staff
+E10008,Grace Okafor,Treasury,Cash Manager,2025-07-30,Staff
+E10009,Lucas Schultz,Finance & Accounting,Controller,2023-01-24,Staff
+E10010,Liam Nguyen,Customer Operations,Client Service Rep,2018-12-12,Staff
+E10011,Wei Morales,Customer Operations,Operations Associate,2021-05-17,Staff
+E10012,Elena Osei,Finance & Accounting,GL Analyst,2020-06-26,Staff
+E10013,Priya Castillo,Information Technology,Database Administrator,2014-06-26,Staff
+E10014,Elena Iqbal,Customer Operations,Operations Associate,2020-10-06,Staff
+E10015,Sofia Duarte,Finance & Accounting,GL Analyst,2018-08-20,Staff
+E10016,Hannah Brennan,Lending Operations,Loan Servicing Specialist,2023-10-16,Staff
+E10017,Owen Ferreira,Finance & Accounting,Staff Accountant,2020-01-09,Manager
+E10018,Liam Nguyen,Finance & Accounting,GL Analyst,2017-06-22,Staff
+E10019,Mateo Larsen,Lending Operations,Loan Servicing Specialist,2013-11-05,Staff
+E10020,Amara Haddad,Lending Operations,Underwriter,2017-02-06,Staff
+E10021,Chloe Mensah,Customer Operations,Client Service Rep,2025-07-14,Staff
+E10022,Leila Abara,Information Technology,Systems Administrator,2023-01-20,Staff
+E10023,Lucas Walsh,Information Technology,Release Engineer,2015-10-08,Staff
+E10024,Marcus Haddad,Customer Operations,Operations Associate,2013-12-05,Staff
+E10025,Isaac Tanaka,Customer Operations,Operations Associate,2021-05-25,Staff
+E10026,Elena Osei,Customer Operations,Client Service Rep,2023-04-25,Staff
+E10027,Mateo Johansson,Risk & Compliance,Compliance Analyst,2012-10-22,Staff
+E10028,Elena Kowalski,Risk & Compliance,Compliance Analyst,2017-11-23,Staff
+E10029,Mateo Okafor,Information Technology,Software Engineer,2025-02-10,Staff
+E10030,Grace Patel,Customer Operations,Client Service Rep,2014-06-11,Staff
+E10031,Jordan Rivera,Customer Operations,Operations Associate,2019-09-04,Staff
+E10032,Omar Duarte,Treasury,Treasury Analyst,2025-05-28,Staff
+E10033,Leila Morales,Lending Operations,Underwriter,2017-03-29,Staff
+E10034,Samuel Johansson,Finance & Accounting,Senior Accountant,2013-10-16,Manager
+E10035,Mateo Rivera,Information Technology,Systems Administrator,2020-05-18,Staff
+E10036,Elena Castillo,Finance & Accounting,Staff Accountant,2023-01-23,Staff
+E10037,Owen Okafor,Treasury,Treasury Analyst,2021-03-17,Staff
+E10038,Amara Patel,Treasury,Treasury Analyst,2025-10-09,Staff
+E10039,Zara Reyes,Finance & Accounting,Senior Accountant,2016-01-05,Staff
+E10040,Avery Iqbal,Information Technology,Release Engineer,2023-03-29,Staff
+E10041,Liam Novak,Finance & Accounting,Staff Accountant,2023-08-09,Staff
+E10042,Kwame Schultz,Lending Operations,Underwriter,2023-07-05,Staff
+E10043,Jordan Morales,Finance & Accounting,Controller,2012-12-20,Staff
+E10044,Leila Larsen,Customer Operations,Client Service Rep,2018-08-28,Manager
+E10045,Kwame Ferreira,Customer Operations,Client Service Rep,2019-05-10,Staff
+E10046,Liam Rivera,Finance & Accounting,Controller,2025-03-10,Staff
+E10047,Avery Abara,Customer Operations,Operations Associate,2025-01-31,Staff
+E10048,Nadia Castillo,Lending Operations,Underwriter,2016-02-25,Staff
+E10049,Wei Adeyemi,Information Technology,Release Engineer,2013-08-08,Staff
+E10050,Mateo Osei,Finance & Accounting,GL Analyst,2018-04-16,Staff
+E10051,Liam Patel,Finance & Accounting,Controller,2021-08-04,Staff
+E10052,Owen Adeyemi,Lending Operations,Loan Processor,2018-10-10,Staff
+E10053,Ethan Haddad,Lending Operations,Loan Servicing Specialist,2021-04-16,Staff
+E10054,Leila Osei,Treasury,Treasury Analyst,2020-09-22,Staff
+E10055,Avery Morales,Treasury,Treasury Analyst,2020-06-03,Staff
+E10056,Diego Tanaka,Lending Operations,Underwriter,2014-05-12,Staff
+E10057,Aisha Larsen,Customer Operations,Client Service Rep,2012-11-02,Staff
+E10058,Liam Reyes,Lending Operations,Loan Processor,2020-05-20,Staff
+E10059,Leila Rivera,Finance & Accounting,Senior Accountant,2018-07-30,Manager
+E10060,Isaac Chen,Lending Operations,Loan Processor,2014-07-24,Staff
+E10061,Ravi Singh,Risk & Compliance,Compliance Analyst,2024-06-12,Staff
+E10062,Grace Chen,Lending Operations,Underwriter,2016-06-17,Staff
+E10063,Sofia Schultz,Finance & Accounting,GL Analyst,2024-02-14,Staff
+E10064,Lucas Chen,Customer Operations,Client Service Rep,2014-08-04,Staff
+E10065,Amara Chen,Finance & Accounting,Senior Accountant,2024-05-03,Staff
+E10066,Kwame Castillo,Customer Operations,Client Service Rep,2024-03-04,Staff
+E10067,Omar Okafor,Lending Operations,Loan Processor,2016-06-29,Staff
+E10068,Mei Nguyen,Finance & Accounting,Controller,2018-10-04,Staff
+E10069,Owen Duarte,Lending Operations,Loan Processor,2012-09-20,Manager
+E10070,Chloe Schultz,Customer Operations,Client Service Rep,2025-04-29,Staff
+E10071,Ravi Iqbal,Lending Operations,Underwriter,2016-10-06,Staff
+E10072,Leila Kowalski,Information Technology,Software Engineer,2023-08-22,Staff
+E10073,Fatima Kim,Information Technology,Release Engineer,2021-02-15,Staff
+E10074,Diego Larsen,Finance & Accounting,Staff Accountant,2023-07-17,Staff
+E10075,Diego Haddad,Finance & Accounting,Senior Accountant,2015-03-06,Staff
+E10076,Jordan Morales,Information Technology,Software Engineer,2012-10-08,Staff
+E10077,Yuki Novak,Information Technology,Software Engineer,2020-03-31,Staff
+E10078,Marcus Rivera,Finance & Accounting,GL Analyst,2021-12-29,Staff
+E10079,Marcus Haddad,Finance & Accounting,GL Analyst,2012-07-11,Staff
+E10080,Noah Morales,Finance & Accounting,Staff Accountant,2020-07-21,Staff
+E10081,Lucas Kim,Customer Operations,Operations Associate,2022-04-07,Staff
+E10082,Diego Singh,Information Technology,IT Support Analyst,2024-04-25,Staff
+E10083,Chloe Mensah,Finance & Accounting,Senior Accountant,2013-09-04,Manager
+E10084,Leila Reyes,Lending Operations,Loan Processor,2022-02-07,Staff
+E10085,Grace Tanaka,Finance & Accounting,Controller,2012-04-02,Staff
+E10086,Sofia Tanaka,Information Technology,Software Engineer,2012-10-11,Staff
+E10087,Nadia Kowalski,Information Technology,Software Engineer,2017-09-08,Staff
+E10088,Marcus Moreau,Lending Operations,Loan Servicing Specialist,2021-02-24,Staff
+E10089,Nadia Kowalski,Information Technology,IT Support Analyst,2013-12-25,Staff
+E10090,Omar Ferreira,Information Technology,Systems Administrator,2013-10-24,Staff
+E10091,Chloe Tanaka,Finance & Accounting,Controller,2016-08-12,Staff
+E10092,Zara Okafor,Information Technology,Database Administrator,2024-04-29,Staff
+E10093,Wei Rivera,Customer Operations,Operations Associate,2013-06-10,Staff
+E10094,Kwame Patel,Lending Operations,Underwriter,2024-07-12,Staff
+E10095,Avery Brennan,Information Technology,Database Administrator,2020-04-24,Staff
+E10096,Liam Haddad,Lending Operations,Underwriter,2020-02-06,Staff
+E10097,Marcus Okafor,Customer Operations,Operations Associate,2016-01-01,Staff
+E10098,Fatima Kowalski,Risk & Compliance,Risk Analyst,2015-01-22,Staff
+E10099,Noah Novak,Customer Operations,Operations Associate,2015-09-21,Staff
+E10100,Kwame Duarte,Lending Operations,Loan Servicing Specialist,2020-07-13,Manager
+E10101,Chloe Johansson,Treasury,Cash Manager,2025-07-16,Staff
+E10102,Grace Silva,Customer Operations,Operations Associate,2018-09-19,Manager
+E10103,Marcus Mensah,Lending Operations,Underwriter,2025-01-08,Staff
+E10104,Chloe Singh,Customer Operations,Operations Associate,2025-11-25,Staff
+E10105,Zara Okafor,Customer Operations,Operations Associate,2020-04-24,Staff
+E10106,Ethan Osei,Finance & Accounting,Controller,2019-02-20,Manager
+E10107,Isaac Patel,Lending Operations,Loan Servicing Specialist,2018-02-01,Manager
+E10108,Isaac Abara,Lending Operations,Underwriter,2023-10-24,Staff
+E10109,Priya Iqbal,Finance & Accounting,Controller,2012-02-27,Staff
+E10110,Aisha Larsen,Customer Operations,Client Service Rep,2020-04-20,Staff
+E10111,Aisha Tanaka,Finance & Accounting,Senior Accountant,2015-11-23,Staff
+E10112,Avery Rivera,Lending Operations,Loan Servicing Specialist,2021-06-02,Staff
+E10113,Liam Tanaka,Finance & Accounting,GL Analyst,2023-09-05,Staff
+E10114,Avery Ferreira,Customer Operations,Operations Associate,2021-07-13,Manager
+E10115,Nadia Silva,Information Technology,Systems Administrator,2023-09-06,Staff
+E10116,Owen Rivera,Lending Operations,Loan Servicing Specialist,2022-09-02,Staff
+E10117,Kwame Morales,Lending Operations,Underwriter,2013-06-07,Staff
+E10118,Mateo Singh,Finance & Accounting,Controller,2021-01-15,Staff
+E10119,Jordan Larsen,Customer Operations,Operations Associate,2021-10-06,Staff
+E10120,Wei Morales,Information Technology,Database Administrator,2023-12-13,Staff
+E10121,Marcus Castillo,Lending Operations,Underwriter,2022-12-26,Staff
+E10122,Diego Nguyen,Treasury,Treasury Analyst,2018-04-13,Manager
+E10123,Liam Mensah,Customer Operations,Client Service Rep,2024-07-26,Staff
+E10124,Kwame Reyes,Lending Operations,Loan Processor,2014-05-27,Staff
+E10125,Fatima Haddad,Customer Operations,Client Service Rep,2024-01-02,Staff
+E10126,Avery Novak,Information Technology,Release Engineer,2012-10-02,Staff
+E10127,Fatima Iqbal,Finance & Accounting,GL Analyst,2013-05-14,Staff
+E10128,Ravi Singh,Lending Operations,Loan Servicing Specialist,2024-09-09,Staff
+E10129,Liam Schultz,Lending Operations,Underwriter,2014-12-22,Staff
+E10130,Lucas Haddad,Lending Operations,Underwriter,2013-04-09,Staff
+E10131,Jordan Abara,Treasury,Treasury Analyst,2021-10-29,Staff
+E10132,Kwame Larsen,Information Technology,Systems Administrator,2013-02-18,Staff
+E10133,Sofia Adeyemi,Customer Operations,Operations Associate,2025-07-10,Staff
+E10134,Isaac Walsh,Treasury,Treasury Analyst,2024-02-26,Staff
+E10135,Isaac Morales,Information Technology,Systems Administrator,2020-03-20,Staff
+E10136,Zara Iqbal,Customer Operations,Client Service Rep,2022-01-03,Staff
+E10137,Avery Rivera,Finance & Accounting,Staff Accountant,2017-07-14,Staff
+E10138,Lucas Brennan,Lending Operations,Loan Servicing Specialist,2021-07-02,Staff
+E10139,Mateo Duarte,Lending Operations,Underwriter,2017-03-14,Staff
+E10140,Ethan Ferreira,Treasury,Treasury Analyst,2025-01-15,Staff
+E10141,Ravi Castillo,Information Technology,Systems Administrator,2021-09-20,Information Security
+E10142,Wei Rivera,Lending Operations,Underwriter,2013-12-31,Staff
+E10143,Ravi Singh,Customer Operations,Operations Associate,2015-09-22,System Owner
+E10144,Leila Castillo,Risk & Compliance,Compliance Analyst,2025-03-04,Staff
+E10145,Hannah Kowalski,Finance & Accounting,GL Analyst,2012-11-20,Staff
+E10146,Isaac Rivera,Lending Operations,Loan Servicing Specialist,2019-11-27,Manager
+E10147,Yuki Haddad,Risk & Compliance,Compliance Analyst,2025-10-24,Staff
+E10148,Yuki Mensah,Lending Operations,Loan Servicing Specialist,2021-02-18,Staff
+E10149,Liam Osei,Treasury,Treasury Analyst,2020-11-03,Staff
+E10150,Avery Castillo,Finance & Accounting,Staff Accountant,2013-01-30,Staff
+E10151,Priya Kim,Finance & Accounting,Senior Accountant,2016-01-06,Staff
+E10152,Chloe Morales,Lending Operations,Loan Servicing Specialist,2016-10-12,Staff
+E10153,Amara Johansson,Information Technology,Software Engineer,2014-10-02,Staff
+E10154,Liam Silva,Finance & Accounting,Staff Accountant,2020-10-29,Staff
+E10155,Noah Morales,Finance & Accounting,Controller,2015-07-13,Staff
+E10156,Avery Schultz,Customer Operations,Operations Associate,2016-11-03,Staff
+E10157,Lucas Reyes,Customer Operations,Client Service Rep,2021-01-28,Staff
+E10158,Kwame Tanaka,Treasury,Treasury Analyst,2020-11-05,Staff
+E10159,Marcus Reyes,Customer Operations,Client Service Rep,2016-09-05,Staff
+E10160,Priya Schultz,Risk & Compliance,Compliance Analyst,2019-05-30,Staff
+E10161,Aisha Walsh,Customer Operations,Client Service Rep,2016-02-25,Staff
+E10162,Diego Reyes,Risk & Compliance,Compliance Analyst,2019-02-13,Staff
+E10163,Noah Ferreira,Information Technology,Software Engineer,2013-01-25,Staff
+E10164,Sofia Ferreira,Finance & Accounting,Controller,2012-01-25,Staff
+E10165,Sofia Abara,Risk & Compliance,Compliance Analyst,2018-08-20,Staff
+E10166,Nadia Schultz,Lending Operations,Loan Servicing Specialist,2019-05-08,Staff
+E10167,Fatima Brennan,Lending Operations,Loan Processor,2022-10-10,Staff
+E10168,Ethan Kim,Finance & Accounting,Senior Accountant,2020-09-18,Staff
+E10169,Hannah Ferreira,Lending Operations,Underwriter,2024-09-13,Staff
+E10170,Kwame Iqbal,Lending Operations,Loan Processor,2018-09-03,Staff
+E10171,Mateo Adeyemi,Lending Operations,Loan Servicing Specialist,2017-07-05,Manager
+E10172,Ethan Duarte,Customer Operations,Operations Associate,2014-08-13,Staff
+E10173,Yuki Castillo,Finance & Accounting,Controller,2025-01-13,Staff
+E10174,Yuki Johansson,Information Technology,Systems Administrator,2013-10-10,Staff
+E10175,Amara Haddad,Finance & Accounting,Senior Accountant,2022-06-10,Staff
+E10176,Sofia Brennan,Treasury,Treasury Analyst,2014-08-15,Staff
+E10177,Avery Singh,Information Technology,IT Support Analyst,2012-07-02,Staff
+E10178,Noah Brennan,Customer Operations,Operations Associate,2025-08-14,Staff
+E10179,Grace Mensah,Risk & Compliance,Compliance Analyst,2012-11-19,Manager
+E10180,Chloe Okafor,Information Technology,Database Administrator,2021-05-17,Staff
+E10181,Priya Tanaka,Finance & Accounting,Controller,2017-08-22,Staff
+E10182,Wei Novak,Treasury,Cash Manager,2016-06-29,Staff
+E10183,Isaac Patel,Customer Operations,Client Service Rep,2013-05-21,Staff
+E10184,Omar Okafor,Customer Operations,Client Service Rep,2020-04-14,Staff
+E10185,Omar Chen,Customer Operations,Operations Associate,2014-06-24,Staff
+E10186,Chloe Moreau,Customer Operations,Client Service Rep,2020-08-14,Staff
+E10187,Mateo Abara,Customer Operations,Client Service Rep,2018-04-11,Manager
+E10188,Avery Kim,Customer Operations,Operations Associate,2025-10-15,Staff
+E10189,Ravi Duarte,Finance & Accounting,Senior Accountant,2019-07-12,Staff
+E10190,Avery Castillo,Lending Operations,Loan Servicing Specialist,2025-03-07,Staff
+E10191,Wei Patel,Customer Operations,Client Service Rep,2021-07-16,Staff
+E10192,Lucas Moreau,Information Technology,Software Engineer,2018-05-11,Staff
+E10193,Noah Silva,Risk & Compliance,Risk Analyst,2022-03-14,Staff
+E10194,Zara Walsh,Finance & Accounting,Staff Accountant,2020-11-12,Staff
+E10195,Chloe Tanaka,Finance & Accounting,Senior Accountant,2021-04-29,Staff
+E10196,Marcus Castillo,Customer Operations,Client Service Rep,2015-07-28,Staff
+E10197,Noah Tanaka,Lending Operations,Loan Servicing Specialist,2017-10-06,Manager
+E10198,Lucas Singh,Lending Operations,Underwriter,2012-01-02,Staff
+E10199,Ethan Novak,Risk & Compliance,Compliance Analyst,2015-05-25,Staff
+E10200,Isaac Osei,Risk & Compliance,Risk Analyst,2018-08-23,Manager
+E10201,Lucas Brennan,Treasury,Cash Manager,2014-12-11,Staff
+E10202,Fatima Haddad,Treasury,Cash Manager,2016-05-18,Staff
+E10203,Omar Castillo,Information Technology,Software Engineer,2014-06-13,Staff
+E10204,Noah Moreau,Lending Operations,Underwriter,2017-08-10,Staff
+E10205,Avery Schultz,Lending Operations,Loan Servicing Specialist,2021-10-18,Staff
+E10206,Ravi Johansson,Customer Operations,Operations Associate,2021-06-03,Staff
+E10207,Mei Schultz,Customer Operations,Client Service Rep,2013-10-23,Staff
+E10208,Ravi Morales,Finance & Accounting,Controller,2023-09-04,Staff
+E10209,Leila Abara,Risk & Compliance,Risk Analyst,2020-12-28,Staff
+E10210,Mateo Tanaka,Customer Operations,Operations Associate,2021-09-02,Staff
+E10211,Diego Kowalski,Information Technology,Release Engineer,2020-04-08,Staff
+E10212,Nadia Rivera,Finance & Accounting,GL Analyst,2022-06-14,Staff
+E10213,Mateo Brennan,Customer Operations,Client Service Rep,2020-01-28,Staff
+E10214,Ravi Ferreira,Risk & Compliance,Compliance Analyst,2025-07-24,Staff
+E10215,Elena Osei,Risk & Compliance,Compliance Analyst,2023-10-27,Staff
+E10216,Grace Castillo,Information Technology,Database Administrator,2018-09-19,Staff
+E10217,Isaac Iqbal,Information Technology,Systems Administrator,2025-09-10,Staff
+E10218,Elena Walsh,Finance & Accounting,GL Analyst,2020-08-12,Staff
+E10219,Amara Mensah,Treasury,Cash Manager,2016-08-30,Staff
+E10220,Leila Johansson,Customer Operations,Operations Associate,2022-09-09,Staff
+E10221,Nadia Abara,Lending Operations,Loan Processor,2019-02-13,Manager
+E10222,Mei Patel,Information Technology,IT Support Analyst,2019-02-27,Staff
+E10223,Leila Ferreira,Customer Operations,Client Service Rep,2016-10-27,Staff
+E10224,Noah Abara,Information Technology,Database Administrator,2017-11-21,Staff
+E10225,Yuki Haddad,Information Technology,IT Support Analyst,2024-07-05,Staff
+E10226,Ravi Haddad,Finance & Accounting,Senior Accountant,2021-01-14,Staff
+E10227,Nadia Johansson,Customer Operations,Operations Associate,2020-09-07,Staff
+E10228,Elena Patel,Treasury,Cash Manager,2018-03-06,Staff
+E10229,Nadia Kim,Information Technology,Software Engineer,2023-08-31,Staff
+E10230,Avery Haddad,Lending Operations,Loan Processor,2016-04-08,Staff
+E10231,Jordan Okafor,Finance & Accounting,Staff Accountant,2017-06-26,Staff
+E10232,Samuel Johansson,Finance & Accounting,Senior Accountant,2025-11-05,Staff
+E10233,Mateo Kim,Customer Operations,Operations Associate,2018-10-09,Staff
+E10234,Mateo Castillo,Customer Operations,Operations Associate,2024-05-15,Staff
+E10235,Isaac Walsh,Finance & Accounting,Controller,2023-03-22,Staff
+E10236,Elena Kowalski,Lending Operations,Underwriter,2018-10-18,Staff
+E10237,Jordan Johansson,Lending Operations,Loan Servicing Specialist,2023-07-20,Staff
+E10238,Hannah Singh,Treasury,Treasury Analyst,2016-11-21,Staff
+E10239,Hannah Singh,Finance & Accounting,GL Analyst,2018-06-04,Staff
+E10240,Isaac Tanaka,Treasury,Cash Manager,2014-12-25,Staff
+E10241,Nadia Adeyemi,Finance & Accounting,Senior Accountant,2023-08-11,Staff
+E10242,Jordan Moreau,Lending Operations,Loan Processor,2021-04-20,Staff
+E10243,Grace Brennan,Finance & Accounting,GL Analyst,2016-08-23,Staff
+E10244,Mateo Haddad,Customer Operations,Operations Associate,2012-07-04,Staff
+E10245,Samuel Abara,Finance & Accounting,Staff Accountant,2014-10-31,Staff
+E10246,Sofia Osei,Customer Operations,Client Service Rep,2021-11-22,Manager
+E10247,Priya Reyes,Customer Operations,Client Service Rep,2013-03-22,Staff
+E10248,Mei Novak,Lending Operations,Loan Servicing Specialist,2024-11-18,Staff
+E10249,Mateo Mensah,Lending Operations,Loan Processor,2018-01-08,Staff
+E10250,Jordan Tanaka,Treasury,Cash Manager,2016-03-17,Staff
+E10251,Isaac Adeyemi,Information Technology,IT Support Analyst,2012-04-16,Staff
+E10252,Leila Duarte,Finance & Accounting,GL Analyst,2015-05-11,Staff
+E10253,Marcus Walsh,Information Technology,Database Administrator,2019-02-27,Staff
+E10254,Liam Walsh,Lending Operations,Loan Processor,2012-02-07,Staff
+E10255,Owen Chen,Finance & Accounting,Controller,2014-11-17,Staff
+E10256,Ravi Larsen,Information Technology,IT Support Analyst,2016-12-09,Staff
+E10257,Ethan Ferreira,Customer Operations,Client Service Rep,2018-02-02,Staff
+E10258,Jordan Haddad,Finance & Accounting,GL Analyst,2021-06-18,Staff
+E10259,Ravi Osei,Information Technology,Database Administrator,2013-07-26,CAB Member
+E10260,Ravi Tanaka,Finance & Accounting,Senior Accountant,2024-10-21,Staff
+E10261,Priya Haddad,Treasury,Cash Manager,2012-02-27,Staff
+E10262,Nadia Brennan,Customer Operations,Operations Associate,2012-08-16,Staff
+E10263,Marcus Tanaka,Information Technology,Systems Administrator,2025-10-30,Staff
+E10264,Zara Okafor,Finance & Accounting,GL Analyst,2022-05-18,Staff
+E10265,Grace Mensah,Finance & Accounting,GL Analyst,2016-02-02,Staff
+E10266,Aisha Silva,Information Technology,Release Engineer,2021-08-17,Staff
+E10267,Wei Mensah,Lending Operations,Loan Servicing Specialist,2015-11-03,Staff
+E10268,Isaac Haddad,Customer Operations,Client Service Rep,2013-05-22,Staff
+E10269,Jordan Castillo,Information Technology,Software Engineer,2024-02-05,Staff
+E10270,Priya Kowalski,Information Technology,Release Engineer,2014-06-10,Staff
+E10271,Noah Mensah,Treasury,Treasury Analyst,2016-04-28,Staff
+E10272,Fatima Chen,Lending Operations,Underwriter,2018-12-28,Staff
+E10273,Ethan Mensah,Lending Operations,Loan Processor,2017-03-24,Staff
+E10274,Kwame Schultz,Lending Operations,Underwriter,2014-12-10,Staff
+E10275,Noah Brennan,Finance & Accounting,GL Analyst,2020-10-08,Staff
+E10276,Aisha Okafor,Customer Operations,Client Service Rep,2015-07-30,Staff
+E10277,Avery Abara,Lending Operations,Underwriter,2025-05-19,Staff
+E10278,Hannah Kowalski,Risk & Compliance,Risk Analyst,2014-07-22,Staff
+E10279,Noah Johansson,Information Technology,Release Engineer,2020-10-26,Staff
+E10280,Marcus Haddad,Risk & Compliance,Compliance Analyst,2025-04-25,Staff
+E10281,Mateo Novak,Customer Operations,Operations Associate,2025-05-27,Staff
+E10282,Leila Mensah,Lending Operations,Loan Processor,2022-06-17,Staff
+E10283,Omar Silva,Finance & Accounting,Controller,2014-02-07,Staff
+E10284,Yuki Rivera,Information Technology,Release Engineer,2015-01-16,Staff
+E10285,Elena Singh,Information Technology,Software Engineer,2018-06-22,Staff
+E10286,Isaac Castillo,Risk & Compliance,Compliance Analyst,2013-07-15,Staff
+E10287,Samuel Kowalski,Lending Operations,Underwriter,2019-02-07,Staff
+E10288,Nadia Singh,Lending Operations,Loan Servicing Specialist,2019-02-04,Manager
+E10289,Mateo Okafor,Treasury,Treasury Analyst,2013-03-05,Manager
+E10290,Sofia Nguyen,Customer Operations,Operations Associate,2022-06-14,Staff
+E10291,Hannah Brennan,Information Technology,Systems Administrator,2016-12-19,Staff
+E10292,Lucas Kowalski,Information Technology,IT Support Analyst,2019-02-27,Staff
+E10293,Ethan Adeyemi,Finance & Accounting,GL Analyst,2020-01-03,Staff
+E10294,Mei Mensah,Finance & Accounting,Controller,2018-08-14,Staff
+E10295,Noah Rivera,Finance & Accounting,Senior Accountant,2015-12-28,Staff
+E10296,Jordan Silva,Finance & Accounting,Controller,2018-12-17,Staff
+E10297,Zara Okafor,Finance & Accounting,GL Analyst,2022-02-03,Staff
+E10298,Hannah Silva,Lending Operations,Loan Processor,2015-03-12,Staff
+E10299,Wei Haddad,Customer Operations,Operations Associate,2024-10-15,Staff
+E10300,Elena Johansson,Customer Operations,Client Service Rep,2020-06-02,Staff
+E10301,Mei Moreau,Risk & Compliance,Risk Analyst,2013-10-29,Staff
+E10302,Mateo Johansson,Information Technology,Release Engineer,2012-02-23,Staff
+E10303,Ravi Moreau,Information Technology,IT Support Analyst,2016-11-25,Staff
+E10304,Wei Duarte,Lending Operations,Underwriter,2018-06-18,Manager
+E10305,Wei Brennan,Finance & Accounting,GL Analyst,2018-09-27,Staff
+E10306,Samuel Iqbal,Treasury,Treasury Analyst,2022-12-12,Staff
+E10307,Ethan Castillo,Information Technology,Release Engineer,2023-05-02,Staff
+E10308,Grace Mensah,Customer Operations,Client Service Rep,2025-03-26,Staff
+E10309,Jordan Duarte,Information Technology,IT Support Analyst,2016-08-11,Staff
+E10310,Noah Patel,Finance & Accounting,Staff Accountant,2025-01-08,Staff
+E10311,Noah Kowalski,Information Technology,IT Support Analyst,2024-09-04,Staff
+E10312,Mei Ferreira,Lending Operations,Loan Servicing Specialist,2017-03-07,Staff
+E10313,Fatima Larsen,Treasury,Cash Manager,2023-06-16,Staff
+E10314,Ravi Moreau,Lending Operations,Loan Processor,2023-05-23,Staff
+E10315,Liam Adeyemi,Information Technology,IT Support Analyst,2016-09-14,Staff
+E10316,Isaac Castillo,Lending Operations,Loan Processor,2014-06-02,Staff
+E10317,Avery Morales,Customer Operations,Client Service Rep,2018-10-05,Manager
+E10318,Avery Walsh,Finance & Accounting,GL Analyst,2015-06-16,Staff
+E10319,Priya Larsen,Treasury,Cash Manager,2012-12-21,Staff
+E10320,Chloe Walsh,Finance & Accounting,Senior Accountant,2022-07-21,Staff
+E10321,Elena Novak,Customer Operations,Client Service Rep,2015-12-17,Staff
+E10322,Elena Castillo,Lending Operations,Underwriter,2022-09-20,Staff
+E10323,Aisha Patel,Lending Operations,Underwriter,2015-03-30,Manager
+E10324,Isaac Nguyen,Information Technology,Systems Administrator,2013-03-11,Information Security
+E10325,Fatima Castillo,Customer Operations,Client Service Rep,2020-02-18,Staff
+E10326,Nadia Morales,Lending Operations,Loan Servicing Specialist,2014-05-14,Staff
+E10327,Amara Adeyemi,Lending Operations,Loan Servicing Specialist,2019-01-23,Staff
+E10328,Avery Castillo,Lending Operations,Underwriter,2022-03-04,Staff
+E10329,Amara Osei,Information Technology,IT Support Analyst,2020-12-30,Staff
+E10330,Chloe Silva,Finance & Accounting,GL Analyst,2024-07-09,Staff
+E10331,Nadia Silva,Information Technology,Release Engineer,2015-02-09,Staff
+E10332,Leila Novak,Finance & Accounting,Senior Accountant,2014-01-29,Staff
+E10333,Yuki Iqbal,Information Technology,Systems Administrator,2018-08-09,Staff
+E10334,Ravi Morales,Information Technology,Database Administrator,2012-11-21,Staff
+E10335,Wei Brennan,Customer Operations,Operations Associate,2019-04-09,Staff
+E10336,Sofia Rivera,Lending Operations,Loan Processor,2018-11-16,Staff
+E10337,Diego Abara,Information Technology,Systems Administrator,2015-05-15,Staff
+E10338,Omar Rivera,Finance & Accounting,Senior Accountant,2017-01-17,Staff
+E10339,Aisha Mensah,Information Technology,Release Engineer,2014-12-30,Staff
+E10340,Zara Moreau,Lending Operations,Underwriter,2023-10-18,Staff
+E10341,Sofia Adeyemi,Treasury,Treasury Analyst,2020-03-18,Staff
+E10342,Hannah Osei,Treasury,Cash Manager,2017-07-06,Staff
+E10343,Liam Iqbal,Finance & Accounting,Staff Accountant,2016-08-02,Staff
+E10344,Lucas Kim,Customer Operations,Operations Associate,2022-02-18,Staff
+E10345,Grace Singh,Information Technology,Software Engineer,2023-06-26,Staff
+E10346,Amara Okafor,Lending Operations,Underwriter,2017-03-08,Staff
+E10347,Sofia Nguyen,Information Technology,Release Engineer,2016-09-29,CAB Member
+E10348,Jordan Moreau,Customer Operations,Client Service Rep,2016-05-31,Manager
+E10349,Jordan Ferreira,Finance & Accounting,Senior Accountant,2022-02-23,Staff
+E10350,Mei Brennan,Finance & Accounting,Controller,2013-11-29,Staff
+E10351,Mateo Patel,Lending Operations,Underwriter,2018-12-04,Staff
+E10352,Mateo Novak,Finance & Accounting,Senior Accountant,2016-09-09,Staff
+E10353,Chloe Rivera,Risk & Compliance,Risk Analyst,2022-01-21,Staff
+E10354,Mei Kowalski,Treasury,Treasury Analyst,2012-08-03,Staff
+E10355,Owen Larsen,Information Technology,Systems Administrator,2015-12-09,Staff
+E10356,Isaac Okafor,Risk & Compliance,Risk Analyst,2013-03-25,Staff
+E10357,Owen Mensah,Customer Operations,Client Service Rep,2021-02-15,Manager
+E10358,Mei Singh,Finance & Accounting,Controller,2018-08-28,Staff
+E10359,Grace Novak,Finance & Accounting,Controller,2024-09-09,Staff
+E10360,Lucas Brennan,Risk & Compliance,Risk Analyst,2017-04-07,Staff
+E10361,Liam Chen,Treasury,Treasury Analyst,2014-01-13,Staff
+E10362,Amara Kowalski,Lending Operations,Loan Servicing Specialist,2012-03-20,Staff
+E10363,Zara Osei,Finance & Accounting,GL Analyst,2017-06-27,Staff
+E10364,Yuki Osei,Lending Operations,Underwriter,2015-08-18,Staff
+E10365,Wei Osei,Lending Operations,Loan Processor,2015-06-29,Staff
+E10366,Kwame Haddad,Lending Operations,Underwriter,2014-12-18,Staff
+E10367,Grace Haddad,Risk & Compliance,Compliance Analyst,2022-04-28,Staff
+E10368,Isaac Silva,Lending Operations,Loan Processor,2022-04-25,Staff
+E10369,Liam Moreau,Treasury,Treasury Analyst,2017-04-14,Staff
+E10370,Sofia Castillo,Customer Operations,Operations Associate,2021-04-21,Staff
+E10371,Omar Novak,Customer Operations,Operations Associate,2018-11-26,Manager
+E10372,Chloe Johansson,Lending Operations,Underwriter,2014-12-23,Staff
+E10373,Isaac Silva,Finance & Accounting,Senior Accountant,2018-06-18,Staff
+E10374,Ravi Reyes,Treasury,Treasury Analyst,2024-05-09,Staff
+E10375,Sofia Patel,Customer Operations,Client Service Rep,2017-06-08,Staff
+E10376,Owen Reyes,Information Technology,Release Engineer,2018-10-10,Staff
+E10377,Ethan Moreau,Customer Operations,Operations Associate,2015-05-22,Staff
+E10378,Kwame Osei,Finance & Accounting,Controller,2018-09-07,Staff
+E10379,Wei Kowalski,Information Technology,Database Administrator,2013-06-24,Staff
+E10380,Jordan Larsen,Lending Operations,Underwriter,2020-12-21,Manager
+E10381,Hannah Silva,Lending Operations,Loan Servicing Specialist,2022-02-22,Staff
+E10382,Liam Brennan,Lending Operations,Loan Processor,2016-03-02,Staff
+E10383,Ravi Patel,Customer Operations,Client Service Rep,2023-04-14,Staff
+E10384,Omar Johansson,Information Technology,Release Engineer,2020-02-05,Staff
+E10385,Fatima Osei,Customer Operations,Operations Associate,2020-08-06,Staff
+E10386,Mateo Rivera,Customer Operations,Client Service Rep,2024-06-18,Staff
+E10387,Liam Castillo,Customer Operations,Client Service Rep,2016-04-07,Staff
+E10388,Hannah Castillo,Customer Operations,Client Service Rep,2016-12-30,Staff
+E10389,Kwame Kim,Customer Operations,Operations Associate,2022-12-20,Staff
+E10390,Ethan Walsh,Lending Operations,Loan Processor,2024-03-15,Staff
+E10391,Samuel Moreau,Information Technology,Systems Administrator,2017-02-08,Staff
+E10392,Avery Iqbal,Lending Operations,Loan Processor,2020-10-02,Staff
+E10393,Grace Castillo,Finance & Accounting,Staff Accountant,2013-05-14,Staff
+E10394,Ethan Silva,Finance & Accounting,Controller,2023-01-06,Staff
+E10395,Noah Haddad,Customer Operations,Operations Associate,2025-03-31,Staff
+E10396,Liam Okafor,Risk & Compliance,Compliance Analyst,2017-07-18,Staff
+E10397,Elena Brennan,Finance & Accounting,Controller,2017-07-28,Staff
+E10398,Wei Rivera,Finance & Accounting,Senior Accountant,2012-06-15,Staff
+E10399,Ethan Abara,Finance & Accounting,Staff Accountant,2021-10-15,Staff
+E10400,Mateo Johansson,Lending Operations,Loan Servicing Specialist,2020-10-07,Staff
+E10401,Noah Schultz,Information Technology,IT Support Analyst,2022-11-21,Staff
+E10402,Priya Reyes,Lending Operations,Loan Servicing Specialist,2017-02-27,Staff
+E10403,Mei Adeyemi,Customer Operations,Operations Associate,2013-11-04,Staff
+E10404,Lucas Silva,Lending Operations,Loan Servicing Specialist,2022-09-20,Staff
+E10405,Liam Morales,Lending Operations,Loan Servicing Specialist,2024-10-29,Staff
+E10406,Yuki Castillo,Information Technology,Systems Administrator,2020-05-14,Staff
+E10407,Marcus Iqbal,Lending Operations,Loan Servicing Specialist,2017-11-16,Staff
+E10408,Diego Schultz,Finance & Accounting,Senior Accountant,2015-11-12,Staff
+E10409,Hannah Mensah,Risk & Compliance,Compliance Analyst,2016-06-27,Staff
+E10410,Nadia Okafor,Information Technology,Systems Administrator,2015-10-02,Staff
+E10411,Leila Tanaka,Information Technology,Database Administrator,2016-04-28,Staff
+E10412,Ethan Iqbal,Customer Operations,Client Service Rep,2013-03-07,Staff
+E10413,Wei Silva,Customer Operations,Operations Associate,2018-05-30,Staff
+E10414,Noah Larsen,Finance & Accounting,Controller,2021-09-08,Staff
+E10415,Kwame Reyes,Treasury,Treasury Analyst,2022-11-24,Staff
+E10416,Marcus Brennan,Customer Operations,Client Service Rep,2016-07-28,Staff
+E10417,Avery Mensah,Treasury,Treasury Analyst,2024-06-05,Staff
+E10418,Leila Nguyen,Risk & Compliance,Risk Analyst,2021-08-06,Staff
+E10419,Mateo Johansson,Finance & Accounting,Senior Accountant,2023-07-20,Staff
+E10420,Leila Walsh,Risk & Compliance,Risk Analyst,2018-05-21,Staff
+E10421,Amara Moreau,Lending Operations,Underwriter,2013-06-27,Staff
+E10422,Ravi Walsh,Information Technology,Database Administrator,2025-08-21,Staff
+E10423,Elena Nguyen,Lending Operations,Loan Servicing Specialist,2021-01-12,Staff
+E10424,Yuki Abara,Treasury,Treasury Analyst,2012-08-15,Staff
+E10425,Yuki Kowalski,Treasury,Treasury Analyst,2025-08-08,Staff
+E10426,Diego Adeyemi,Information Technology,Release Engineer,2016-04-25,Staff
+E10427,Amara Walsh,Information Technology,Software Engineer,2025-05-07,Staff
+E10428,Elena Castillo,Risk & Compliance,Risk Analyst,2019-09-19,Staff
+E10429,Leila Ferreira,Treasury,Cash Manager,2017-03-15,Staff
+E10430,Aisha Brennan,Risk & Compliance,Compliance Analyst,2025-03-14,Staff
+E10431,Ravi Chen,Customer Operations,Operations Associate,2020-06-01,Staff
+E10432,Samuel Abara,Information Technology,Systems Administrator,2022-08-03,Staff
+E10433,Kwame Kowalski,Customer Operations,Operations Associate,2020-08-11,Staff
+E10434,Amara Kim,Finance & Accounting,GL Analyst,2018-04-24,Staff
+E10435,Liam Adeyemi,Customer Operations,Client Service Rep,2025-06-16,Staff
+E10436,Jordan Johansson,Lending Operations,Underwriter,2012-07-12,Staff
+E10437,Owen Nguyen,Treasury,Treasury Analyst,2022-05-31,Staff
+E10438,Kwame Kim,Lending Operations,Loan Servicing Specialist,2024-09-24,Staff
+E10439,Nadia Kowalski,Customer Operations,Client Service Rep,2024-06-19,Staff
+E10440,Amara Rivera,Lending Operations,Underwriter,2019-07-25,Staff
+E10441,Ravi Larsen,Information Technology,Release Engineer,2021-04-15,Staff
+E10442,Samuel Chen,Lending Operations,Underwriter,2014-05-22,Staff
+E10443,Ravi Castillo,Customer Operations,Client Service Rep,2012-11-27,Staff
+E10444,Sofia Haddad,Finance & Accounting,GL Analyst,2013-02-01,Staff
+E10445,Kwame Morales,Finance & Accounting,GL Analyst,2025-02-05,Staff
+E10446,Zara Larsen,Information Technology,Release Engineer,2014-07-02,Staff
+E10447,Nadia Morales,Customer Operations,Operations Associate,2012-06-15,Staff
+E10448,Amara Larsen,Customer Operations,Client Service Rep,2022-11-25,Staff
+E10449,Isaac Kim,Customer Operations,Client Service Rep,2017-02-14,Manager
+E10450,Diego Okafor,Risk & Compliance,Risk Analyst,2016-04-07,Staff
+E10451,Owen Johansson,Finance & Accounting,GL Analyst,2025-06-27,Staff
+E10452,Wei Osei,Finance & Accounting,Senior Accountant,2022-08-02,Staff
+E10453,Sofia Brennan,Information Technology,Systems Administrator,2013-06-20,Staff
+E10454,Mateo Novak,Finance & Accounting,GL Analyst,2014-10-24,Staff
+E10455,Samuel Novak,Customer Operations,Client Service Rep,2016-08-18,Staff
+E10456,Mei Patel,Customer Operations,Operations Associate,2024-07-19,Staff
+E10457,Yuki Castillo,Information Technology,Database Administrator,2016-04-01,Staff
+E10458,Aisha Ferreira,Customer Operations,Client Service Rep,2013-07-23,Staff
+E10459,Kwame Haddad,Finance & Accounting,Controller,2015-12-18,Staff
+E10460,Jordan Rivera,Risk & Compliance,Risk Analyst,2019-03-21,Staff
+E10461,Mateo Ferreira,Information Technology,Database Administrator,2018-07-02,Staff
+E10462,Hannah Moreau,Lending Operations,Loan Processor,2012-03-19,Staff
+E10463,Grace Patel,Lending Operations,Loan Servicing Specialist,2021-04-14,Staff
+E10464,Isaac Silva,Finance & Accounting,Controller,2022-01-04,Staff
+E10465,Fatima Chen,Finance & Accounting,GL Analyst,2016-02-26,Staff
+E10466,Jordan Singh,Customer Operations,Client Service Rep,2025-01-31,Staff
+E10467,Samuel Kim,Finance & Accounting,Senior Accountant,2017-07-21,Staff
+E10468,Omar Brennan,Information Technology,Systems Administrator,2022-06-28,Staff
+E10469,Ethan Moreau,Information Technology,Software Engineer,2024-11-25,Staff
+E10470,Diego Kowalski,Finance & Accounting,Staff Accountant,2014-12-30,Staff
+E10471,Liam Larsen,Lending Operations,Loan Processor,2022-09-29,Staff
+E10472,Mateo Duarte,Finance & Accounting,GL Analyst,2022-08-03,Staff
+E10473,Kwame Moreau,Information Technology,Software Engineer,2015-04-30,Staff
+E10474,Wei Moreau,Treasury,Treasury Analyst,2023-01-17,Staff
+E10475,Samuel Silva,Information Technology,IT Support Analyst,2015-11-25,Staff
+E10476,Isaac Adeyemi,Lending Operations,Loan Processor,2022-08-26,Staff
+E10477,Fatima Morales,Finance & Accounting,GL Analyst,2012-04-13,Staff
+E10478,Omar Kim,Finance & Accounting,Staff Accountant,2022-01-11,Staff
+E10479,Leila Patel,Customer Operations,Operations Associate,2018-09-04,Staff
+E10480,Diego Mensah,Information Technology,Systems Administrator,2025-06-26,Staff
+E10481,Zara Walsh,Treasury,Cash Manager,2012-01-16,Staff
+E10482,Samuel Abara,Finance & Accounting,Controller,2022-02-15,Staff
+E10483,Noah Ferreira,Customer Operations,Operations Associate,2023-10-20,Staff
+E10484,Grace Tanaka,Finance & Accounting,GL Analyst,2014-10-15,Staff
+E10485,Fatima Kim,Treasury,Treasury Analyst,2025-05-21,Staff
+E10486,Marcus Iqbal,Risk & Compliance,Risk Analyst,2016-11-24,Staff
+E10487,Sofia Kowalski,Lending Operations,Loan Servicing Specialist,2017-04-26,Staff
+E10488,Sofia Ferreira,Lending Operations,Underwriter,2023-05-29,Staff
+E10489,Yuki Osei,Information Technology,Release Engineer,2017-06-07,CAB Member
+E10490,Liam Haddad,Finance & Accounting,GL Analyst,2022-09-29,Staff
+E10491,Chloe Schultz,Finance & Accounting,GL Analyst,2015-02-04,Staff
+E10492,Aisha Tanaka,Customer Operations,Operations Associate,2025-04-16,Staff
+E10493,Marcus Silva,Finance & Accounting,Staff Accountant,2017-01-25,Staff
+E10494,Priya Okafor,Lending Operations,Underwriter,2017-10-27,Staff
+E10495,Marcus Duarte,Treasury,Treasury Analyst,2017-10-23,Staff
+E10496,Chloe Duarte,Customer Operations,Client Service Rep,2019-01-16,Staff
+E10497,Chloe Morales,Lending Operations,Loan Servicing Specialist,2021-03-10,Staff
+E10498,Ravi Adeyemi,Customer Operations,Operations Associate,2019-01-07,Staff
+E10499,Marcus Abara,Customer Operations,Operations Associate,2022-09-12,Staff
+E10500,Nadia Okafor,Finance & Accounting,Staff Accountant,2017-01-20,Staff
+E10501,Diego Osei,Customer Operations,Client Service Rep,2025-06-05,Staff
+E10502,Mei Adeyemi,Finance & Accounting,Staff Accountant,2017-09-11,Staff
+E10503,Fatima Adeyemi,Risk & Compliance,Risk Analyst,2023-03-27,Staff
+E10504,Kwame Larsen,Finance & Accounting,GL Analyst,2013-08-01,Staff
+E10505,Priya Osei,Customer Operations,Client Service Rep,2018-04-18,Staff
+E10506,Owen Mensah,Lending Operations,Loan Servicing Specialist,2014-05-26,Staff
+E10507,Owen Larsen,Customer Operations,Operations Associate,2023-01-02,Staff
+E10508,Fatima Morales,Information Technology,IT Support Analyst,2018-09-20,Staff
+E10509,Ethan Rivera,Treasury,Cash Manager,2025-11-21,Staff
+E10510,Ravi Novak,Risk & Compliance,Risk Analyst,2012-09-03,Staff
+E10511,Owen Chen,Lending Operations,Loan Servicing Specialist,2015-01-05,Staff
+E10512,Liam Rivera,Finance & Accounting,Senior Accountant,2025-05-30,Staff
+E10513,Wei Mensah,Information Technology,Systems Administrator,2022-02-18,Staff
+E10514,Jordan Tanaka,Lending Operations,Underwriter,2025-08-11,Staff
+E10515,Lucas Okafor,Lending Operations,Loan Processor,2016-10-20,Staff
+E10516,Liam Johansson,Finance & Accounting,Staff Accountant,2023-08-04,Staff
+E10517,Grace Rivera,Risk & Compliance,Compliance Analyst,2023-11-06,Staff
+E10518,Leila Tanaka,Risk & Compliance,Risk Analyst,2014-06-17,Staff
+E10519,Zara Brennan,Lending Operations,Loan Servicing Specialist,2019-07-17,Staff
+E10520,Isaac Iqbal,Lending Operations,Loan Servicing Specialist,2023-03-03,Staff
+E10521,Elena Castillo,Information Technology,Systems Administrator,2025-09-10,Staff
+E10522,Noah Tanaka,Risk & Compliance,Risk Analyst,2018-04-27,Staff
+E10523,Owen Haddad,Treasury,Treasury Analyst,2014-05-16,Staff
+E10524,Liam Ferreira,Information Technology,Release Engineer,2012-10-22,Staff
+E10525,Amara Tanaka,Lending Operations,Loan Processor,2015-08-06,Staff
+E10526,Noah Walsh,Lending Operations,Loan Servicing Specialist,2016-05-11,Staff
+E10527,Amara Castillo,Lending Operations,Loan Processor,2021-01-26,Staff
+E10528,Ethan Walsh,Lending Operations,Loan Servicing Specialist,2015-01-12,Staff
+E10529,Elena Iqbal,Lending Operations,Loan Servicing Specialist,2024-05-09,Staff
+E10530,Hannah Morales,Lending Operations,Loan Servicing Specialist,2024-02-13,Staff
+E10531,Leila Schultz,Finance & Accounting,GL Analyst,2014-08-08,Staff
+E10532,Hannah Novak,Customer Operations,Client Service Rep,2021-06-29,Staff
+E10533,Avery Adeyemi,Lending Operations,Loan Servicing Specialist,2018-06-14,Staff
+E10534,Aisha Larsen,Finance & Accounting,Controller,2013-04-01,Staff
+E10535,Sofia Morales,Lending Operations,Underwriter,2016-05-23,Staff
+E10536,Hannah Abara,Lending Operations,Loan Servicing Specialist,2022-10-18,Staff
+E10537,Owen Castillo,Information Technology,Systems Administrator,2021-07-08,Staff
+E10538,Diego Okafor,Risk & Compliance,Risk Analyst,2016-01-14,Staff
+E10539,Nadia Nguyen,Customer Operations,Client Service Rep,2025-07-25,Staff
+E10540,Kwame Singh,Lending Operations,Loan Servicing Specialist,2020-09-03,Staff
+E10541,Marcus Reyes,Finance & Accounting,Controller,2018-11-01,Staff
+E10542,Wei Rivera,Customer Operations,Operations Associate,2020-09-28,Manager
+E10543,Priya Ferreira,Treasury,Cash Manager,2023-10-18,Staff
+E10544,Grace Chen,Risk & Compliance,Compliance Analyst,2014-07-14,Staff
+E10545,Samuel Abara,Finance & Accounting,Controller,2025-04-28,Staff
+E10546,Mateo Walsh,Treasury,Cash Manager,2025-05-15,Staff
+E10547,Priya Singh,Finance & Accounting,Controller,2014-08-11,Staff
+E10548,Grace Patel,Lending Operations,Loan Servicing Specialist,2025-07-30,Staff
+E10549,Lucas Abara,Finance & Accounting,Senior Accountant,2018-08-28,Staff
+E10550,Jordan Iqbal,Lending Operations,Loan Servicing Specialist,2021-08-12,Staff
+E10551,Grace Schultz,Customer Operations,Operations Associate,2019-04-08,Staff
+E10552,Ethan Mensah,Lending Operations,Loan Servicing Specialist,2013-04-24,Staff
+E10553,Nadia Morales,Finance & Accounting,Senior Accountant,2023-03-03,Staff
+E10554,Owen Moreau,Finance & Accounting,Controller,2013-12-04,Staff
+E10555,Avery Nguyen,Risk & Compliance,Compliance Analyst,2025-06-16,Staff
+E10556,Omar Rivera,Customer Operations,Operations Associate,2025-10-09,Staff
+E10557,Chloe Larsen,Finance & Accounting,Senior Accountant,2017-03-14,Staff
+E10558,Avery Morales,Customer Operations,Client Service Rep,2017-02-13,Staff
+E10559,Kwame Castillo,Treasury,Cash Manager,2013-03-08,Staff
+E10560,Nadia Schultz,Customer Operations,Client Service Rep,2012-12-04,Staff
+E10561,Omar Singh,Information Technology,Systems Administrator,2014-06-27,Staff
+E10562,Priya Morales,Lending Operations,Underwriter,2013-05-20,Staff
+E10563,Leila Chen,Information Technology,Release Engineer,2023-05-05,Staff
+E10564,Diego Iqbal,Treasury,Treasury Analyst,2023-10-17,Staff
+E10565,Isaac Silva,Risk & Compliance,Compliance Analyst,2019-11-27,Staff
+E10566,Lucas Schultz,Information Technology,Release Engineer,2014-04-11,Staff
+E10567,Elena Schultz,Information Technology,IT Support Analyst,2018-04-04,Staff
+E10568,Amara Kim,Customer Operations,Operations Associate,2022-01-28,Staff
+E10569,Fatima Silva,Finance & Accounting,GL Analyst,2013-09-17,Staff
+E10570,Leila Larsen,Finance & Accounting,Staff Accountant,2019-03-26,Staff
+E10571,Amara Walsh,Customer Operations,Operations Associate,2022-03-14,Staff
+E10572,Lucas Okafor,Lending Operations,Underwriter,2021-11-03,Staff
+E10573,Noah Morales,Customer Operations,Operations Associate,2017-06-22,Staff
+E10574,Chloe Moreau,Customer Operations,Operations Associate,2019-07-22,Staff
+E10575,Elena Singh,Lending Operations,Underwriter,2013-04-08,Manager
+E10576,Ethan Brennan,Information Technology,Release Engineer,2018-06-18,Staff
+E10577,Marcus Reyes,Information Technology,Systems Administrator,2018-05-04,Staff
+E10578,Noah Ferreira,Lending Operations,Loan Servicing Specialist,2024-01-18,Staff
+E10579,Sofia Moreau,Treasury,Cash Manager,2013-03-04,Staff
+E10580,Samuel Johansson,Customer Operations,Client Service Rep,2024-12-09,Staff
+E10581,Fatima Okafor,Customer Operations,Client Service Rep,2021-05-11,Manager
+E10582,Ethan Chen,Information Technology,IT Support Analyst,2024-03-01,Staff
+E10583,Aisha Singh,Customer Operations,Operations Associate,2019-02-25,Staff
+E10584,Ethan Kim,Lending Operations,Loan Servicing Specialist,2012-10-10,Staff
+E10585,Noah Nguyen,Treasury,Treasury Analyst,2025-03-11,Staff
+E10586,Aisha Duarte,Finance & Accounting,Senior Accountant,2017-11-22,Staff
+E10587,Aisha Osei,Treasury,Treasury Analyst,2019-08-30,Manager
+E10588,Zara Reyes,Customer Operations,Client Service Rep,2013-10-24,Staff
+E10589,Isaac Abara,Risk & Compliance,Compliance Analyst,2013-10-21,Staff
+E10590,Isaac Kowalski,Risk & Compliance,Risk Analyst,2024-03-06,Staff
+E10591,Isaac Tanaka,Customer Operations,Operations Associate,2024-01-26,Staff
+E10592,Zara Rivera,Information Technology,Database Administrator,2025-02-19,Staff
+E10593,Chloe Morales,Risk & Compliance,Compliance Analyst,2014-10-16,Staff
+E10594,Jordan Abara,Lending Operations,Loan Servicing Specialist,2014-02-11,Staff
+E10595,Zara Castillo,Finance & Accounting,GL Analyst,2024-07-16,Staff
+E10596,Amara Okafor,Customer Operations,Client Service Rep,2022-11-24,Staff
+E10597,Wei Johansson,Risk & Compliance,Compliance Analyst,2013-07-22,Staff
+E10598,Avery Novak,Lending Operations,Underwriter,2013-12-05,Staff
+E10599,Chloe Haddad,Lending Operations,Underwriter,2025-04-07,Staff
+E10600,Zara Chen,Information Technology,Release Engineer,2017-10-11,Staff
+E10601,Diego Kowalski,Finance & Accounting,Controller,2022-12-13,Staff
+E10602,Leila Silva,Finance & Accounting,GL Analyst,2016-08-22,Staff
+E10603,Jordan Patel,Risk & Compliance,Compliance Analyst,2016-05-03,Manager
+E10604,Nadia Singh,Finance & Accounting,Controller,2024-05-17,Staff
+E10605,Amara Okafor,Finance & Accounting,GL Analyst,2012-08-02,Staff
+E10606,Noah Schultz,Finance & Accounting,Staff Accountant,2022-01-28,Staff
+E10607,Yuki Rivera,Customer Operations,Operations Associate,2016-12-12,Staff
+E10608,Leila Haddad,Lending Operations,Loan Processor,2013-06-21,Staff
+E10609,Nadia Chen,Treasury,Treasury Analyst,2024-08-21,Staff
+E10610,Lucas Osei,Information Technology,Software Engineer,2025-09-30,Staff
+E10611,Zara Patel,Lending Operations,Loan Processor,2016-05-24,Staff
+E10612,Amara Brennan,Customer Operations,Operations Associate,2024-10-29,Staff
+E10613,Amara Moreau,Customer Operations,Operations Associate,2015-07-16,Staff
+E10614,Hannah Moreau,Finance & Accounting,GL Analyst,2015-10-13,Staff
+E10615,Mei Morales,Customer Operations,Client Service Rep,2023-04-04,Staff
+E10616,Fatima Haddad,Information Technology,Database Administrator,2017-03-23,Staff
+E10617,Aisha Larsen,Customer Operations,Client Service Rep,2024-06-19,Staff
+E10618,Nadia Iqbal,Finance & Accounting,Staff Accountant,2020-09-17,Staff
+E10619,Zara Reyes,Treasury,Cash Manager,2020-04-15,Staff
+E10620,Owen Schultz,Information Technology,Database Administrator,2021-12-06,Staff
+E10621,Samuel Osei,Lending Operations,Loan Servicing Specialist,2025-04-14,Staff
+E10622,Lucas Rivera,Lending Operations,Underwriter,2022-08-10,Staff
+E10623,Fatima Adeyemi,Customer Operations,Client Service Rep,2024-08-23,Staff
+E10624,Noah Novak,Information Technology,Systems Administrator,2015-05-18,Staff
+E10625,Mateo Novak,Risk & Compliance,Compliance Analyst,2014-11-03,Staff
+E10626,Avery Novak,Finance & Accounting,Staff Accountant,2022-10-19,Staff
+E10627,Grace Morales,Finance & Accounting,Senior Accountant,2021-04-08,Staff
+E10628,Elena Ferreira,Information Technology,Release Engineer,2025-05-16,Staff
+E10629,Mateo Schultz,Information Technology,Database Administrator,2025-09-03,Staff
+E10630,Fatima Schultz,Information Technology,Release Engineer,2022-11-14,Staff
+E10631,Lucas Ferreira,Information Technology,Release Engineer,2025-07-18,Staff
+E10632,Mateo Abara,Information Technology,Systems Administrator,2019-04-11,Staff
+E10633,Yuki Larsen,Customer Operations,Operations Associate,2023-11-28,Staff
+E10634,Avery Singh,Lending Operations,Loan Servicing Specialist,2012-05-25,Staff
+E10635,Yuki Duarte,Risk & Compliance,Compliance Analyst,2021-01-20,Staff
+E10636,Omar Larsen,Finance & Accounting,Staff Accountant,2015-09-14,Staff
+E10637,Elena Iqbal,Lending Operations,Loan Servicing Specialist,2014-08-21,Staff
+E10638,Grace Kowalski,Risk & Compliance,Risk Analyst,2024-05-29,Staff
+E10639,Isaac Iqbal,Information Technology,Release Engineer,2012-12-04,Staff
+E10640,Avery Rivera,Finance & Accounting,GL Analyst,2012-02-20,Staff
+E10641,Mei Reyes,Customer Operations,Client Service Rep,2022-07-07,Staff
+E10642,Lucas Osei,Information Technology,Software Engineer,2020-02-17,Staff
+E10643,Wei Castillo,Risk & Compliance,Compliance Analyst,2021-01-01,Staff
+E10644,Liam Reyes,Customer Operations,Operations Associate,2014-12-31,Manager
+E10645,Isaac Chen,Lending Operations,Loan Processor,2021-03-11,Staff
+E10646,Elena Brennan,Customer Operations,Client Service Rep,2016-12-06,Staff
+E10647,Sofia Schultz,Finance & Accounting,Senior Accountant,2023-11-13,Staff
+E10648,Amara Kim,Finance & Accounting,Senior Accountant,2017-10-11,Manager
+E10649,Amara Abara,Lending Operations,Loan Processor,2024-02-23,Staff
+E10650,Leila Castillo,Lending Operations,Loan Servicing Specialist,2013-01-04,Manager
+E10651,Chloe Abara,Customer Operations,Client Service Rep,2017-02-07,Staff
+E10652,Zara Schultz,Lending Operations,Loan Processor,2016-02-05,Staff
+E10653,Owen Johansson,Risk & Compliance,Risk Analyst,2020-04-09,Staff
+E10654,Chloe Osei,Information Technology,Database Administrator,2020-11-09,Staff
+E10655,Owen Reyes,Information Technology,Database Administrator,2022-02-04,Staff
+E10656,Jordan Walsh,Treasury,Cash Manager,2024-04-03,Staff
+E10657,Mei Osei,Treasury,Cash Manager,2018-08-24,Staff
+E10658,Avery Ferreira,Information Technology,IT Support Analyst,2023-01-25,Staff
+E10659,Ravi Patel,Finance & Accounting,Controller,2012-06-12,Staff
+E10660,Leila Duarte,Finance & Accounting,Senior Accountant,2023-05-16,Staff
+E10661,Sofia Adeyemi,Risk & Compliance,Risk Analyst,2016-08-22,Staff
+E10662,Lucas Mensah,Information Technology,IT Support Analyst,2015-01-07,Staff
+E10663,Liam Moreau,Information Technology,Database Administrator,2012-11-16,Staff
+E10664,Wei Patel,Finance & Accounting,Controller,2013-10-16,Manager
+E10665,Jordan Tanaka,Finance & Accounting,Controller,2025-02-06,Staff
+E10666,Liam Adeyemi,Information Technology,Software Engineer,2015-05-18,Staff
+E10667,Lucas Reyes,Customer Operations,Client Service Rep,2025-09-04,Staff
+E10668,Mei Adeyemi,Customer Operations,Client Service Rep,2022-11-09,Staff
+E10669,Wei Adeyemi,Information Technology,IT Support Analyst,2016-08-05,Information Security
+E10670,Kwame Kim,Lending Operations,Loan Processor,2024-04-18,Staff
+E10671,Kwame Novak,Customer Operations,Operations Associate,2025-09-11,Staff
+E10672,Mateo Nguyen,Risk & Compliance,Compliance Analyst,2025-07-14,Staff
+E10673,Ethan Haddad,Finance & Accounting,Senior Accountant,2016-07-14,Staff
+E10674,Noah Novak,Lending Operations,Loan Processor,2016-07-25,Staff
+E10675,Leila Iqbal,Information Technology,IT Support Analyst,2024-02-23,Staff
+E10676,Aisha Abara,Information Technology,Release Engineer,2013-09-18,Staff
+E10677,Mateo Patel,Information Technology,IT Support Analyst,2017-06-12,Staff
+E10678,Omar Patel,Customer Operations,Operations Associate,2023-06-15,Staff
+E10679,Mei Reyes,Finance & Accounting,GL Analyst,2015-02-24,Staff
+E10680,Priya Kim,Lending Operations,Underwriter,2019-12-11,Staff
+E10681,Avery Novak,Finance & Accounting,GL Analyst,2012-04-26,Staff
+E10682,Noah Castillo,Lending Operations,Loan Processor,2019-10-02,Manager
+E10683,Aisha Chen,Treasury,Treasury Analyst,2013-09-02,Manager
+E10684,Marcus Kowalski,Customer Operations,Client Service Rep,2021-06-21,Staff
+E10685,Owen Adeyemi,Finance & Accounting,Senior Accountant,2015-12-23,Staff
+E10686,Lucas Moreau,Finance & Accounting,GL Analyst,2013-05-09,Staff
+E10687,Aisha Johansson,Finance & Accounting,GL Analyst,2016-07-28,Staff
+E10688,Zara Osei,Information Technology,Database Administrator,2013-09-27,Staff
+E10689,Elena Tanaka,Customer Operations,Operations Associate,2021-11-19,Staff
+E10690,Isaac Rivera,Information Technology,Software Engineer,2016-04-14,Staff
+E10691,Priya Silva,Finance & Accounting,Senior Accountant,2017-01-09,Staff
+E10692,Aisha Larsen,Risk & Compliance,Compliance Analyst,2019-12-26,Staff
+E10693,Mateo Osei,Lending Operations,Loan Servicing Specialist,2024-05-15,Staff
+E10694,Aisha Okafor,Lending Operations,Underwriter,2023-07-07,Staff
+E10695,Grace Walsh,Customer Operations,Client Service Rep,2022-08-05,Staff
+E10696,Chloe Haddad,Lending Operations,Loan Servicing Specialist,2019-10-01,Staff
+E10697,Hannah Brennan,Lending Operations,Loan Servicing Specialist,2012-01-18,Staff
+E10698,Elena Iqbal,Customer Operations,Operations Associate,2015-01-05,Staff
+E10699,Fatima Mensah,Customer Operations,Operations Associate,2021-05-17,Staff
+E10700,Sofia Schultz,Customer Operations,Operations Associate,2020-01-08,Staff
+E10701,Mei Morales,Customer Operations,Client Service Rep,2023-09-25,Staff
+E10702,Grace Larsen,Customer Operations,Operations Associate,2021-10-29,Staff
+E10703,Chloe Kowalski,Risk & Compliance,Risk Analyst,2012-08-21,Staff
+E10704,Elena Rivera,Finance & Accounting,Staff Accountant,2020-05-19,Staff
+E10705,Priya Okafor,Lending Operations,Loan Servicing Specialist,2019-05-27,Staff
+E10706,Jordan Brennan,Customer Operations,Operations Associate,2019-08-15,Manager
+E10707,Owen Okafor,Customer Operations,Operations Associate,2016-10-21,Staff
+E10708,Zara Chen,Lending Operations,Loan Processor,2014-04-28,Staff
+E10709,Chloe Abara,Finance & Accounting,Staff Accountant,2015-03-04,Staff
+E10710,Owen Castillo,Customer Operations,Operations Associate,2012-09-11,Staff
+E10711,Fatima Johansson,Customer Operations,Operations Associate,2017-03-23,Staff
+E10712,Ravi Kowalski,Finance & Accounting,Senior Accountant,2025-03-06,Staff
+E10713,Mateo Osei,Finance & Accounting,Senior Accountant,2023-12-20,Staff
+E10714,Yuki Abara,Information Technology,Systems Administrator,2017-01-25,Staff
+E10715,Elena Tanaka,Customer Operations,Client Service Rep,2013-06-28,Staff
+E10716,Mateo Singh,Customer Operations,Client Service Rep,2018-03-07,Manager
+E10717,Zara Tanaka,Lending Operations,Loan Servicing Specialist,2020-03-03,Staff
+E10718,Priya Okafor,Lending Operations,Underwriter,2012-11-21,Staff
+E10719,Leila Kim,Finance & Accounting,Staff Accountant,2016-03-08,Staff
+E10720,Omar Osei,Lending Operations,Loan Servicing Specialist,2016-01-15,Staff
+E10721,Hannah Singh,Lending Operations,Loan Servicing Specialist,2018-06-27,Staff
+E10722,Ravi Novak,Treasury,Treasury Analyst,2017-03-23,System Owner
+E10723,Lucas Walsh,Customer Operations,Operations Associate,2017-09-20,Staff
+E10724,Diego Okafor,Treasury,Cash Manager,2022-07-07,Staff
+E10725,Elena Moreau,Treasury,Treasury Analyst,2019-11-27,Staff
+E10726,Omar Haddad,Risk & Compliance,Risk Analyst,2013-04-22,Staff
+E10727,Jordan Singh,Information Technology,Software Engineer,2021-08-31,Staff
+E10728,Jordan Kowalski,Risk & Compliance,Compliance Analyst,2021-03-08,Staff
+E10729,Noah Tanaka,Lending Operations,Loan Servicing Specialist,2025-08-22,Staff
+E10730,Chloe Morales,Finance & Accounting,Controller,2023-01-17,Staff
+E10731,Fatima Castillo,Lending Operations,Underwriter,2025-09-26,Staff
+E10732,Ravi Tanaka,Risk & Compliance,Risk Analyst,2016-09-09,Staff
+E10733,Lucas Kowalski,Lending Operations,Underwriter,2016-12-05,Staff
+E10734,Grace Adeyemi,Customer Operations,Operations Associate,2016-12-07,Staff
+E10735,Priya Iqbal,Information Technology,Release Engineer,2014-11-18,Staff
+E10736,Priya Tanaka,Treasury,Cash Manager,2025-09-24,Staff
+E10737,Nadia Kim,Treasury,Treasury Analyst,2021-11-30,Staff
+E10738,Priya Morales,Finance & Accounting,Controller,2024-11-29,Staff
+E10739,Lucas Tanaka,Information Technology,Software Engineer,2014-12-23,Staff
+E10740,Fatima Rivera,Risk & Compliance,Risk Analyst,2025-02-07,Staff
+E10741,Nadia Morales,Information Technology,IT Support Analyst,2025-08-07,Staff
+E10742,Mei Mensah,Customer Operations,Operations Associate,2017-07-27,Staff
+E10743,Owen Ferreira,Finance & Accounting,Staff Accountant,2013-09-04,Staff
+E10744,Zara Nguyen,Customer Operations,Operations Associate,2024-11-07,Staff
+E10745,Mateo Brennan,Finance & Accounting,GL Analyst,2013-01-01,Manager
+E10746,Amara Walsh,Finance & Accounting,Staff Accountant,2025-09-16,Staff
+E10747,Zara Reyes,Customer Operations,Operations Associate,2023-11-30,Staff
+E10748,Liam Brennan,Lending Operations,Loan Servicing Specialist,2019-01-31,Staff
+E10749,Zara Osei,Customer Operations,Operations Associate,2019-05-06,Staff
+E10750,Chloe Walsh,Risk & Compliance,Risk Analyst,2022-01-14,Staff
+E10751,Chloe Singh,Information Technology,IT Support Analyst,2018-12-18,CAB Member
+E10752,Aisha Johansson,Customer Operations,Client Service Rep,2015-08-24,Manager
+E10753,Lucas Kim,Information Technology,Release Engineer,2020-03-10,Staff
+E10754,Isaac Castillo,Customer Operations,Client Service Rep,2018-03-28,Staff
+E10755,Mei Chen,Lending Operations,Underwriter,2014-07-01,Staff
+E10756,Nadia Kowalski,Information Technology,IT Support Analyst,2024-01-04,Staff
+E10757,Fatima Kowalski,Information Technology,Systems Administrator,2016-04-22,Staff
+E10758,Liam Adeyemi,Finance & Accounting,Controller,2014-04-03,Staff
+E10759,Marcus Moreau,Customer Operations,Operations Associate,2025-06-26,Staff
+E10760,Omar Kim,Customer Operations,Client Service Rep,2019-03-29,Staff
+E10761,Amara Mensah,Finance & Accounting,Senior Accountant,2025-08-28,Staff
+E10762,Ravi Ferreira,Customer Operations,Client Service Rep,2012-08-17,Manager
+E10763,Sofia Adeyemi,Risk & Compliance,Compliance Analyst,2012-02-21,Staff
+E10764,Chloe Iqbal,Customer Operations,Operations Associate,2014-01-17,Manager
+E10765,Wei Chen,Information Technology,Software Engineer,2012-02-23,Information Security
+E10766,Fatima Morales,Finance & Accounting,Staff Accountant,2023-06-19,Staff
+E10767,Jordan Nguyen,Lending Operations,Underwriter,2016-05-31,Staff
+E10768,Avery Kowalski,Information Technology,Software Engineer,2013-12-18,Staff
+E10769,Mateo Haddad,Lending Operations,Underwriter,2020-09-28,Staff
+E10770,Lucas Abara,Customer Operations,Operations Associate,2023-07-28,Staff
+E10771,Owen Haddad,Lending Operations,Underwriter,2012-04-27,Staff
+E10772,Nadia Castillo,Finance & Accounting,Controller,2016-04-27,Staff
+E10773,Jordan Reyes,Lending Operations,Underwriter,2016-11-03,Manager
+E10774,Omar Haddad,Information Technology,Database Administrator,2012-06-12,Staff
+E10775,Ravi Novak,Lending Operations,Underwriter,2024-07-29,Staff
+E10776,Diego Moreau,Customer Operations,Operations Associate,2017-01-04,Staff
+E10777,Leila Novak,Information Technology,IT Support Analyst,2017-06-23,Staff
+E10778,Chloe Schultz,Treasury,Cash Manager,2013-09-23,Staff
+E10779,Elena Osei,Information Technology,IT Support Analyst,2018-12-04,Staff
+E10780,Amara Kowalski,Finance & Accounting,Controller,2017-05-19,Staff
+E10781,Diego Rivera,Lending Operations,Underwriter,2018-08-14,Staff
+E10782,Nadia Moreau,Finance & Accounting,Staff Accountant,2025-10-27,Staff
+E10783,Kwame Brennan,Lending Operations,Underwriter,2016-04-13,Staff
+E10784,Mateo Tanaka,Risk & Compliance,Risk Analyst,2012-10-02,Staff
+E10785,Leila Singh,Finance & Accounting,GL Analyst,2017-09-13,Staff
+E10786,Owen Schultz,Lending Operations,Underwriter,2014-08-19,Staff
+E10787,Elena Morales,Customer Operations,Client Service Rep,2023-04-26,Staff
+E10788,Ravi Mensah,Information Technology,Software Engineer,2020-05-15,Staff
+E10789,Fatima Abara,Treasury,Cash Manager,2023-12-18,Staff
+E10790,Marcus Chen,Risk & Compliance,Risk Analyst,2023-03-06,Staff
+E10791,Noah Kowalski,Customer Operations,Client Service Rep,2017-11-20,Manager
+E10792,Priya Kim,Finance & Accounting,Staff Accountant,2019-08-26,Staff
+E10793,Fatima Chen,Lending Operations,Underwriter,2019-01-31,Staff
+E10794,Mei Novak,Customer Operations,Operations Associate,2023-02-13,Staff
+E10795,Owen Chen,Information Technology,Database Administrator,2019-10-07,Staff
+E10796,Grace Osei,Risk & Compliance,Compliance Analyst,2018-03-13,Staff
+E10797,Omar Larsen,Finance & Accounting,Controller,2020-06-03,Staff
+E10798,Jordan Silva,Lending Operations,Loan Processor,2021-12-08,Staff
+E10799,Leila Kim,Treasury,Cash Manager,2016-01-25,Staff
+E10800,Mateo Patel,Information Technology,Database Administrator,2022-03-09,Staff
+E10801,Wei Adeyemi,Lending Operations,Underwriter,2013-09-03,Staff
+E10802,Zara Reyes,Information Technology,Database Administrator,2014-10-02,Staff
+E10803,Yuki Morales,Risk & Compliance,Compliance Analyst,2021-01-08,Staff
+E10804,Fatima Adeyemi,Risk & Compliance,Risk Analyst,2012-06-19,Staff
+E10805,Lucas Reyes,Finance & Accounting,Staff Accountant,2016-06-02,Staff
+E10806,Yuki Nguyen,Finance & Accounting,Staff Accountant,2025-09-25,Staff
+E10807,Noah Kim,Information Technology,Database Administrator,2023-12-20,Staff
+E10808,Chloe Ferreira,Finance & Accounting,Controller,2019-04-03,Staff
+E10809,Zara Chen,Customer Operations,Operations Associate,2020-10-22,Staff
+E10810,Lucas Walsh,Information Technology,Release Engineer,2022-08-08,Staff
+E10811,Diego Okafor,Treasury,Treasury Analyst,2013-08-28,Staff
+E10812,Amara Ferreira,Finance & Accounting,Staff Accountant,2012-06-11,Staff
+E10813,Ethan Patel,Lending Operations,Underwriter,2024-07-30,Staff
+E10814,Nadia Larsen,Lending Operations,Loan Processor,2025-07-10,Staff
+E10815,Diego Reyes,Treasury,Treasury Analyst,2021-05-07,Staff
+E10816,Isaac Osei,Lending Operations,Loan Servicing Specialist,2021-07-16,Staff
+E10817,Hannah Abara,Finance & Accounting,GL Analyst,2019-03-20,Staff
+E10818,Owen Okafor,Lending Operations,Loan Servicing Specialist,2018-02-27,Staff
+E10819,Priya Singh,Customer Operations,Operations Associate,2024-04-11,Staff
+E10820,Mateo Patel,Finance & Accounting,GL Analyst,2023-04-04,Staff
+E10821,Kwame Schultz,Information Technology,Software Engineer,2023-12-29,Staff
+E10822,Sofia Schultz,Risk & Compliance,Risk Analyst,2018-06-07,Staff
+E10823,Chloe Reyes,Finance & Accounting,Controller,2017-02-09,Staff
+E10824,Chloe Reyes,Information Technology,Database Administrator,2020-03-12,Staff
+E10825,Chloe Singh,Lending Operations,Loan Servicing Specialist,2019-05-21,Staff
+E10826,Leila Okafor,Finance & Accounting,Senior Accountant,2013-11-25,Staff
+E10827,Chloe Schultz,Finance & Accounting,Controller,2025-07-30,Staff
+E10828,Chloe Novak,Information Technology,Systems Administrator,2018-12-26,Staff
+E10829,Ethan Larsen,Finance & Accounting,Controller,2024-08-07,Staff
+E10830,Diego Tanaka,Lending Operations,Loan Servicing Specialist,2014-09-19,Staff
+E10831,Liam Abara,Finance & Accounting,Senior Accountant,2013-07-17,Manager
+E10832,Kwame Haddad,Lending Operations,Underwriter,2013-03-05,Staff
+E10833,Sofia Mensah,Customer Operations,Operations Associate,2023-09-04,Staff
+E10834,Zara Mensah,Finance & Accounting,Controller,2015-04-09,Staff
+E10835,Yuki Castillo,Finance & Accounting,Controller,2014-01-01,Staff
+E10836,Mei Brennan,Lending Operations,Loan Processor,2025-05-21,Staff
+E10837,Yuki Walsh,Lending Operations,Underwriter,2020-10-29,Staff
+E10838,Aisha Rivera,Finance & Accounting,Controller,2024-03-05,Staff
+E10839,Samuel Iqbal,Customer Operations,Client Service Rep,2012-09-19,Staff
+E10840,Amara Nguyen,Finance & Accounting,GL Analyst,2014-05-30,Staff
+E10841,Chloe Duarte,Treasury,Treasury Analyst,2012-09-21,Manager
+E10842,Owen Brennan,Customer Operations,Client Service Rep,2014-05-28,Staff
+E10843,Hannah Moreau,Finance & Accounting,Senior Accountant,2018-06-04,Staff
+E10844,Wei Singh,Finance & Accounting,Staff Accountant,2016-08-03,Staff
+E10845,Chloe Adeyemi,Lending Operations,Underwriter,2012-03-12,Staff
+E10846,Mei Okafor,Customer Operations,Client Service Rep,2024-02-22,Staff
+E10847,Mateo Rivera,Information Technology,Release Engineer,2014-03-03,Staff
+E10848,Diego Osei,Finance & Accounting,Controller,2021-11-16,Staff
+E10849,Priya Patel,Customer Operations,Operations Associate,2023-03-07,Staff
+E10850,Amara Brennan,Lending Operations,Underwriter,2024-06-17,Staff
+E10851,Fatima Patel,Treasury,Cash Manager,2017-01-16,Staff
+E10852,Ethan Singh,Risk & Compliance,Compliance Analyst,2014-11-17,Staff
+E10853,Chloe Brennan,Treasury,Cash Manager,2024-09-13,Staff
+E10854,Noah Patel,Customer Operations,Operations Associate,2020-12-31,Staff
+E10855,Nadia Haddad,Lending Operations,Loan Servicing Specialist,2020-08-31,Staff
+E10856,Hannah Abara,Information Technology,Software Engineer,2015-09-10,Staff
+E10857,Yuki Johansson,Customer Operations,Operations Associate,2023-10-26,Staff
+E10858,Mateo Osei,Finance & Accounting,Staff Accountant,2013-09-02,Staff
+E10859,Wei Chen,Lending Operations,Loan Servicing Specialist,2025-04-07,Staff
+E10860,Sofia Okafor,Customer Operations,Operations Associate,2015-03-06,Staff
+E10861,Mateo Singh,Risk & Compliance,Risk Analyst,2025-08-18,Staff
+E10862,Isaac Walsh,Treasury,Cash Manager,2023-10-03,Staff
+E10863,Noah Larsen,Lending Operations,Loan Servicing Specialist,2022-02-22,Staff
+E10864,Elena Walsh,Lending Operations,Loan Servicing Specialist,2019-08-29,Staff
+E10865,Priya Kim,Treasury,Cash Manager,2025-09-30,Staff
+E10866,Samuel Kowalski,Finance & Accounting,GL Analyst,2022-07-08,Staff
+E10867,Chloe Kim,Treasury,Cash Manager,2015-08-24,Manager
+E10868,Noah Adeyemi,Lending Operations,Loan Processor,2025-02-19,Staff
+E10869,Owen Rivera,Information Technology,Systems Administrator,2025-06-18,Staff
+E10870,Wei Haddad,Information Technology,Database Administrator,2020-11-12,Staff
+E10871,Priya Ferreira,Lending Operations,Loan Servicing Specialist,2015-02-26,Staff
+E10872,Liam Moreau,Lending Operations,Underwriter,2012-06-22,Staff
+E10873,Samuel Reyes,Risk & Compliance,Risk Analyst,2013-05-21,Staff
+E10874,Noah Duarte,Lending Operations,Loan Servicing Specialist,2017-11-02,Staff
+E10875,Sofia Tanaka,Finance & Accounting,GL Analyst,2018-12-31,Staff
+E10876,Kwame Kowalski,Customer Operations,Operations Associate,2018-11-08,Staff
+E10877,Mateo Kim,Finance & Accounting,Staff Accountant,2012-02-09,Staff
+E10878,Diego Morales,Finance & Accounting,Controller,2024-06-03,Staff
+E10879,Omar Reyes,Customer Operations,Client Service Rep,2015-10-23,Staff
+E10880,Wei Iqbal,Lending Operations,Loan Servicing Specialist,2021-12-13,Staff
+E10881,Leila Abara,Finance & Accounting,Controller,2021-03-22,Staff
+E10882,Amara Chen,Lending Operations,Loan Servicing Specialist,2017-03-28,Manager
+E10883,Noah Johansson,Risk & Compliance,Risk Analyst,2015-10-19,Staff
+E10884,Ravi Moreau,Finance & Accounting,GL Analyst,2018-02-02,Staff
+E10885,Hannah Castillo,Lending Operations,Underwriter,2017-11-17,Manager
+E10886,Omar Tanaka,Lending Operations,Loan Processor,2020-08-14,Staff
+E10887,Jordan Morales,Lending Operations,Loan Processor,2023-05-23,Staff
+E10888,Owen Moreau,Lending Operations,Loan Servicing Specialist,2012-07-24,Staff
+E10889,Omar Larsen,Treasury,Cash Manager,2019-05-10,Staff
+E10890,Diego Chen,Information Technology,Release Engineer,2021-05-28,Staff
+E10891,Mei Johansson,Customer Operations,Operations Associate,2022-12-12,Staff
+E10892,Isaac Mensah,Customer Operations,Client Service Rep,2019-06-05,Staff
+E10893,Kwame Johansson,Lending Operations,Loan Processor,2019-12-23,Staff
+E10894,Amara Chen,Lending Operations,Loan Servicing Specialist,2024-12-02,Staff
+E10895,Liam Haddad,Risk & Compliance,Risk Analyst,2012-04-30,Staff
+E10896,Kwame Silva,Finance & Accounting,Staff Accountant,2023-12-11,Staff
+E10897,Leila Haddad,Lending Operations,Loan Servicing Specialist,2023-01-13,Staff
+E10898,Avery Reyes,Lending Operations,Underwriter,2018-12-24,Staff
+E10899,Chloe Adeyemi,Information Technology,Database Administrator,2020-10-30,Staff
+E10900,Isaac Kowalski,Information Technology,Software Engineer,2024-12-04,Staff
+E10901,Marcus Mensah,Lending Operations,Loan Servicing Specialist,2012-09-05,Staff
+E10902,Diego Novak,Information Technology,Software Engineer,2021-10-11,Staff
+E10903,Kwame Singh,Lending Operations,Underwriter,2016-07-15,Staff
+E10904,Omar Silva,Customer Operations,Operations Associate,2017-07-10,Staff
+E10905,Avery Johansson,Customer Operations,Client Service Rep,2022-03-24,Staff
+E10906,Fatima Abara,Information Technology,Release Engineer,2021-03-18,Staff
+E10907,Liam Osei,Treasury,Treasury Analyst,2017-11-09,Staff
+E10908,Grace Novak,Lending Operations,Loan Servicing Specialist,2012-02-16,Staff
+E10909,Samuel Castillo,Customer Operations,Client Service Rep,2014-06-05,Staff
+E10910,Omar Nguyen,Lending Operations,Underwriter,2012-03-30,Staff
+E10911,Noah Haddad,Customer Operations,Operations Associate,2022-06-22,Staff
+E10912,Elena Osei,Information Technology,Database Administrator,2017-10-20,Staff
+E10913,Amara Kim,Finance & Accounting,Staff Accountant,2023-01-19,Staff
+E10914,Fatima Osei,Information Technology,Software Engineer,2019-10-04,Staff
+E10915,Leila Okafor,Customer Operations,Operations Associate,2018-12-25,Staff
+E10916,Fatima Patel,Risk & Compliance,Risk Analyst,2012-11-13,Staff
+E10917,Jordan Osei,Finance & Accounting,GL Analyst,2021-10-21,Staff
+E10918,Avery Patel,Risk & Compliance,Compliance Analyst,2024-04-19,Staff
+E10919,Avery Osei,Customer Operations,Operations Associate,2025-01-13,Staff
+E10920,Diego Abara,Finance & Accounting,Controller,2018-10-30,Staff
+E10921,Avery Haddad,Customer Operations,Operations Associate,2014-12-01,Staff
+E10922,Nadia Ferreira,Finance & Accounting,Controller,2015-11-24,Staff
+E10923,Elena Castillo,Lending Operations,Loan Processor,2020-03-26,Staff
+E10924,Mateo Chen,Finance & Accounting,Senior Accountant,2016-12-27,Staff
+E10925,Isaac Chen,Finance & Accounting,GL Analyst,2020-05-13,Staff
+E10926,Marcus Mensah,Information Technology,Release Engineer,2016-08-31,Staff
+E10927,Sofia Singh,Information Technology,Systems Administrator,2013-04-23,Staff
+E10928,Chloe Kowalski,Treasury,Cash Manager,2019-10-03,Staff
+E10929,Leila Abara,Lending Operations,Loan Processor,2019-06-10,Staff
+E10930,Noah Abara,Lending Operations,Underwriter,2016-11-23,Staff
+E10931,Wei Ferreira,Lending Operations,Loan Processor,2025-07-14,Staff
+E10932,Priya Reyes,Information Technology,Software Engineer,2014-05-09,Staff
+E10933,Owen Singh,Information Technology,Software Engineer,2017-10-04,Staff
+E10934,Zara Moreau,Customer Operations,Operations Associate,2016-10-24,Manager
+E10935,Mateo Schultz,Treasury,Cash Manager,2018-11-14,Staff
+E10936,Mateo Morales,Lending Operations,Loan Servicing Specialist,2025-10-16,Staff
+E10937,Sofia Chen,Finance & Accounting,Senior Accountant,2020-01-27,Staff
+E10938,Kwame Ferreira,Risk & Compliance,Compliance Analyst,2020-07-23,Staff
+E10939,Grace Okafor,Finance & Accounting,Controller,2020-11-18,Staff
+E10940,Zara Johansson,Customer Operations,Operations Associate,2015-07-09,Staff
+E10941,Chloe Morales,Risk & Compliance,Risk Analyst,2015-12-21,Staff
+E10942,Noah Tanaka,Risk & Compliance,Compliance Analyst,2014-11-05,Staff
+E10943,Grace Abara,Risk & Compliance,Risk Analyst,2024-02-14,Staff
+E10944,Leila Nguyen,Lending Operations,Underwriter,2022-06-09,Staff
+E10945,Elena Chen,Lending Operations,Loan Servicing Specialist,2025-08-25,Staff
+E10946,Avery Walsh,Finance & Accounting,Staff Accountant,2012-08-21,Staff
+E10947,Isaac Walsh,Finance & Accounting,Controller,2015-01-15,Staff
+E10948,Mateo Nguyen,Information Technology,Software Engineer,2012-04-05,Staff
+E10949,Sofia Singh,Lending Operations,Loan Processor,2017-11-22,Staff
+E10950,Mei Nguyen,Information Technology,IT Support Analyst,2012-12-20,Staff
+E10951,Kwame Kim,Information Technology,Release Engineer,2024-06-04,Staff
+E10952,Isaac Walsh,Treasury,Treasury Analyst,2018-02-16,Staff
+E10953,Chloe Ferreira,Finance & Accounting,Controller,2022-10-20,Staff
+E10954,Sofia Johansson,Customer Operations,Operations Associate,2022-08-30,Staff
+E10955,Yuki Reyes,Lending Operations,Loan Servicing Specialist,2019-11-20,Staff
+E10956,Jordan Morales,Customer Operations,Operations Associate,2020-07-24,Staff
+E10957,Diego Chen,Finance & Accounting,Staff Accountant,2023-09-14,Staff
+E10958,Owen Duarte,Information Technology,Systems Administrator,2017-10-23,Staff
+E10959,Avery Kowalski,Information Technology,IT Support Analyst,2024-10-04,Staff
+E10960,Avery Walsh,Information Technology,Software Engineer,2021-09-23,Staff
+E10961,Ethan Okafor,Finance & Accounting,Controller,2017-07-11,Staff
+E10962,Omar Novak,Customer Operations,Operations Associate,2017-10-05,Staff
+E10963,Owen Reyes,Information Technology,Release Engineer,2022-08-03,Staff
+E10964,Diego Morales,Risk & Compliance,Risk Analyst,2013-08-05,Staff
+E10965,Jordan Kowalski,Lending Operations,Underwriter,2014-05-20,Manager
+E10966,Omar Ferreira,Lending Operations,Underwriter,2013-02-19,Manager
+E10967,Isaac Okafor,Customer Operations,Client Service Rep,2024-01-19,Staff
+E10968,Diego Osei,Lending Operations,Loan Processor,2013-04-08,Manager
+E10969,Isaac Iqbal,Customer Operations,Operations Associate,2019-05-01,Staff
+E10970,Aisha Ferreira,Information Technology,IT Support Analyst,2016-06-24,Staff
+E10971,Isaac Kowalski,Finance & Accounting,Controller,2017-10-25,Staff
+E10972,Kwame Castillo,Lending Operations,Loan Processor,2015-07-07,Staff
+E10973,Elena Okafor,Customer Operations,Client Service Rep,2016-04-04,Staff
+E10974,Hannah Castillo,Treasury,Treasury Analyst,2016-03-11,Staff
+E10975,Isaac Tanaka,Lending Operations,Loan Servicing Specialist,2020-05-05,Staff
+E10976,Kwame Ferreira,Information Technology,Database Administrator,2020-06-30,Staff
+E10977,Zara Ferreira,Customer Operations,Operations Associate,2022-12-16,Staff
+E10978,Nadia Adeyemi,Finance & Accounting,Senior Accountant,2012-12-24,Staff
+E10979,Fatima Chen,Customer Operations,Client Service Rep,2024-04-02,Staff
+E10980,Priya Reyes,Finance & Accounting,GL Analyst,2014-01-27,Staff
+E10981,Noah Iqbal,Risk & Compliance,Risk Analyst,2020-12-31,Manager
+E10982,Omar Brennan,Customer Operations,Operations Associate,2012-09-07,Staff
+E10983,Sofia Mensah,Treasury,Treasury Analyst,2017-10-26,Staff
+E10984,Zara Tanaka,Information Technology,Systems Administrator,2019-12-04,Staff
+E10985,Kwame Larsen,Customer Operations,Operations Associate,2024-05-31,Staff
+E10986,Jordan Morales,Risk & Compliance,Risk Analyst,2024-09-12,Staff
+E10987,Aisha Okafor,Customer Operations,Client Service Rep,2014-09-05,Staff
+E10988,Samuel Novak,Lending Operations,Underwriter,2012-09-19,Staff
+E10989,Sofia Nguyen,Risk & Compliance,Compliance Analyst,2019-08-28,Staff
+E10990,Ravi Ferreira,Information Technology,Software Engineer,2014-12-08,Staff
+E10991,Fatima Iqbal,Information Technology,IT Support Analyst,2017-08-14,Staff
+E10992,Lucas Iqbal,Lending Operations,Loan Processor,2022-06-07,Staff
+E10993,Leila Schultz,Information Technology,IT Support Analyst,2020-11-25,Staff
+E10994,Fatima Silva,Customer Operations,Client Service Rep,2016-08-19,Staff
+E10995,Aisha Adeyemi,Customer Operations,Operations Associate,2021-12-27,Staff
+E10996,Mateo Patel,Customer Operations,Client Service Rep,2016-10-13,System Owner
+E10997,Zara Johansson,Risk & Compliance,Risk Analyst,2014-12-25,Staff
+E10998,Kwame Chen,Information Technology,Software Engineer,2012-06-05,Staff
+E10999,Isaac Tanaka,Lending Operations,Underwriter,2025-10-07,Staff
+E11000,Wei Okafor,Finance & Accounting,Staff Accountant,2025-01-24,Staff
+E11001,Sofia Silva,Customer Operations,Client Service Rep,2012-08-13,Staff
+E11002,Ethan Iqbal,Lending Operations,Underwriter,2025-06-11,Staff
+E11003,Liam Haddad,Customer Operations,Client Service Rep,2012-04-24,Manager
+E11004,Nadia Rivera,Lending Operations,Underwriter,2016-05-24,Staff
+E11005,Isaac Brennan,Lending Operations,Loan Processor,2024-09-04,Staff
+E11006,Avery Johansson,Information Technology,Release Engineer,2015-12-10,Staff
+E11007,Isaac Rivera,Risk & Compliance,Compliance Analyst,2016-06-15,Staff
+E11008,Samuel Rivera,Lending Operations,Loan Servicing Specialist,2016-11-18,Staff
+E11009,Owen Kowalski,Treasury,Treasury Analyst,2015-02-25,Staff
+E11010,Diego Kim,Customer Operations,Operations Associate,2013-08-27,Staff
+E11011,Nadia Rivera,Treasury,Treasury Analyst,2016-04-07,Staff
+E11012,Diego Tanaka,Lending Operations,Underwriter,2021-03-08,Staff
+E11013,Hannah Haddad,Customer Operations,Operations Associate,2025-03-31,Staff
+E11014,Owen Kim,Information Technology,Release Engineer,2022-10-20,Staff
+E11015,Sofia Castillo,Lending Operations,Underwriter,2025-11-18,Staff
+E11016,Marcus Novak,Treasury,Treasury Analyst,2021-03-04,Manager
+E11017,Diego Kim,Finance & Accounting,Senior Accountant,2025-02-04,Staff
+E11018,Yuki Castillo,Lending Operations,Loan Servicing Specialist,2019-09-09,Staff
+E11019,Owen Reyes,Finance & Accounting,Staff Accountant,2020-11-16,Staff
+E11020,Kwame Silva,Customer Operations,Client Service Rep,2015-11-17,Staff
+E11021,Grace Larsen,Treasury,Cash Manager,2025-11-17,Staff
+E11022,Ethan Morales,Customer Operations,Operations Associate,2024-10-10,Staff
+E11023,Ravi Iqbal,Customer Operations,Operations Associate,2015-08-26,Staff
+E11024,Grace Adeyemi,Lending Operations,Underwriter,2014-10-21,Staff
+E11025,Kwame Morales,Finance & Accounting,Senior Accountant,2017-11-22,Staff
+E11026,Amara Kowalski,Customer Operations,Client Service Rep,2025-08-12,Staff
+E11027,Chloe Tanaka,Customer Operations,Operations Associate,2025-05-20,Staff
+E11028,Omar Larsen,Information Technology,Release Engineer,2018-06-20,Staff
+E11029,Yuki Duarte,Customer Operations,Operations Associate,2014-08-01,Staff
+E11030,Zara Haddad,Customer Operations,Operations Associate,2014-10-17,Staff
+E11031,Omar Osei,Customer Operations,Client Service Rep,2013-04-25,Staff
+E11032,Elena Nguyen,Finance & Accounting,GL Analyst,2019-04-01,Manager
+E11033,Chloe Patel,Information Technology,Release Engineer,2013-11-19,Staff
+E11034,Mateo Duarte,Customer Operations,Operations Associate,2017-05-05,Staff
+E11035,Elena Osei,Information Technology,Database Administrator,2017-07-20,Staff
+E11036,Elena Iqbal,Information Technology,Database Administrator,2024-08-05,Staff
+E11037,Amara Okafor,Customer Operations,Operations Associate,2020-07-08,Staff
+E11038,Nadia Walsh,Finance & Accounting,Senior Accountant,2013-01-10,Staff
+E11039,Samuel Walsh,Information Technology,Release Engineer,2020-08-03,Staff
+E11040,Yuki Adeyemi,Treasury,Cash Manager,2019-11-01,Staff
+E11041,Grace Duarte,Customer Operations,Operations Associate,2012-06-26,Staff
+E11042,Yuki Nguyen,Finance & Accounting,Staff Accountant,2020-09-23,Staff
+E11043,Leila Chen,Customer Operations,Client Service Rep,2019-01-07,Manager
+E11044,Fatima Osei,Information Technology,Systems Administrator,2024-06-20,Staff
+E11045,Noah Reyes,Information Technology,IT Support Analyst,2012-02-23,Staff
+E11046,Amara Ferreira,Finance & Accounting,Staff Accountant,2018-02-23,Staff
+E11047,Mateo Silva,Lending Operations,Loan Processor,2014-06-11,Staff
+E11048,Isaac Moreau,Information Technology,Release Engineer,2015-06-03,Staff
+E11049,Owen Tanaka,Customer Operations,Operations Associate,2025-07-07,Staff
+E11050,Mei Duarte,Lending Operations,Loan Servicing Specialist,2021-08-02,Staff
+E11051,Fatima Moreau,Lending Operations,Loan Servicing Specialist,2023-07-21,Staff
+E11052,Amara Iqbal,Lending Operations,Loan Processor,2018-11-02,Staff
+E11053,Yuki Schultz,Lending Operations,Loan Processor,2024-02-22,Staff
+E11054,Isaac Adeyemi,Customer Operations,Operations Associate,2020-10-08,Staff
+E11055,Jordan Kim,Risk & Compliance,Risk Analyst,2021-02-22,Staff
+E11056,Chloe Okafor,Customer Operations,Client Service Rep,2022-09-29,Staff
+E11057,Hannah Larsen,Finance & Accounting,GL Analyst,2015-07-21,Staff
+E11058,Yuki Mensah,Treasury,Treasury Analyst,2021-10-18,Staff
+E11059,Mei Ferreira,Risk & Compliance,Risk Analyst,2016-12-02,Staff
+E11060,Fatima Novak,Customer Operations,Operations Associate,2021-06-11,Staff
+E11061,Marcus Larsen,Lending Operations,Loan Servicing Specialist,2024-10-15,Staff
+E11062,Grace Mensah,Treasury,Treasury Analyst,2025-01-23,Staff
+E11063,Avery Tanaka,Treasury,Treasury Analyst,2025-11-12,Staff
+E11064,Nadia Mensah,Risk & Compliance,Compliance Analyst,2024-10-15,Staff
+E11065,Chloe Novak,Lending Operations,Loan Processor,2018-10-26,Staff
+E11066,Liam Mensah,Finance & Accounting,GL Analyst,2020-08-17,Staff
+E11067,Ethan Iqbal,Customer Operations,Operations Associate,2024-01-02,Staff
+E11068,Marcus Duarte,Customer Operations,Client Service Rep,2016-09-12,Staff
+E11069,Nadia Tanaka,Risk & Compliance,Compliance Analyst,2017-08-11,Manager
+E11070,Noah Reyes,Finance & Accounting,Staff Accountant,2018-07-23,Staff
+E11071,Kwame Brennan,Customer Operations,Client Service Rep,2023-01-17,Staff
+E11072,Priya Chen,Customer Operations,Operations Associate,2013-01-01,Staff
+E11073,Marcus Nguyen,Customer Operations,Client Service Rep,2014-03-13,Staff
+E11074,Yuki Duarte,Information Technology,Database Administrator,2017-06-30,Staff
+E11075,Samuel Silva,Information Technology,Database Administrator,2018-05-07,Staff
+E11076,Grace Brennan,Risk & Compliance,Risk Analyst,2025-06-10,Staff
+E11077,Kwame Haddad,Finance & Accounting,Staff Accountant,2021-08-10,Staff
+E11078,Liam Morales,Information Technology,Software Engineer,2019-03-21,Staff
+E11079,Isaac Novak,Information Technology,IT Support Analyst,2019-08-21,Staff
+E11080,Yuki Kim,Lending Operations,Underwriter,2021-05-04,Staff
+E11081,Diego Silva,Customer Operations,Client Service Rep,2025-09-23,Staff
+E11082,Sofia Iqbal,Lending Operations,Underwriter,2012-09-17,Manager
+E11083,Avery Walsh,Customer Operations,Operations Associate,2013-02-27,Staff
+E11084,Zara Haddad,Customer Operations,Client Service Rep,2019-01-16,Staff
+E11085,Wei Iqbal,Lending Operations,Loan Servicing Specialist,2023-04-03,Staff
+E11086,Elena Duarte,Information Technology,Release Engineer,2018-02-05,Information Security
+E11087,Elena Rivera,Risk & Compliance,Compliance Analyst,2014-01-28,Staff
+E11088,Omar Tanaka,Lending Operations,Loan Processor,2019-01-29,Staff
+E11089,Ethan Novak,Lending Operations,Loan Servicing Specialist,2025-02-03,Staff
+E11090,Isaac Castillo,Customer Operations,Client Service Rep,2012-03-23,Staff
+E11091,Grace Ferreira,Finance & Accounting,Senior Accountant,2025-11-07,Staff
+E11092,Grace Okafor,Information Technology,Software Engineer,2023-09-20,Staff
+E11093,Liam Reyes,Lending Operations,Loan Servicing Specialist,2018-01-10,Staff
+E11094,Lucas Kowalski,Information Technology,Database Administrator,2018-11-20,Staff
+E11095,Wei Silva,Information Technology,IT Support Analyst,2021-09-15,Staff
+E11096,Nadia Ferreira,Information Technology,IT Support Analyst,2016-04-15,Staff
+E11097,Isaac Morales,Customer Operations,Operations Associate,2013-05-14,Staff
+E11098,Zara Moreau,Finance & Accounting,GL Analyst,2025-07-02,Staff
+E11099,Nadia Abara,Treasury,Treasury Analyst,2015-10-27,Staff
+E11100,Fatima Kowalski,Finance & Accounting,Controller,2012-05-17,Staff
+E11101,Amara Duarte,Information Technology,IT Support Analyst,2014-03-12,Staff
+E11102,Diego Castillo,Treasury,Cash Manager,2017-08-22,Staff
+E11103,Nadia Haddad,Information Technology,Release Engineer,2019-05-24,Staff
+E11104,Noah Mensah,Customer Operations,Client Service Rep,2015-06-22,Staff
+E11105,Priya Ferreira,Lending Operations,Loan Processor,2024-04-22,Staff
+E11106,Elena Kowalski,Finance & Accounting,Senior Accountant,2022-06-14,Staff
+E11107,Amara Nguyen,Information Technology,Software Engineer,2021-07-14,Staff
+E11108,Priya Johansson,Treasury,Cash Manager,2022-12-20,Staff
+E11109,Lucas Ferreira,Information Technology,Systems Administrator,2015-04-14,CAB Member
+E11110,Chloe Duarte,Customer Operations,Client Service Rep,2024-03-07,Staff
+E11111,Wei Larsen,Customer Operations,Operations Associate,2012-01-03,Manager
+E11112,Grace Duarte,Lending Operations,Loan Servicing Specialist,2020-07-08,Staff
+E11113,Marcus Moreau,Lending Operations,Underwriter,2022-04-20,Staff
+E11114,Wei Mensah,Customer Operations,Client Service Rep,2025-11-03,Staff
+E11115,Kwame Duarte,Information Technology,Systems Administrator,2020-07-27,Staff
+E11116,Owen Tanaka,Customer Operations,Client Service Rep,2021-01-06,Staff
+E11117,Yuki Mensah,Finance & Accounting,GL Analyst,2024-06-11,Staff
+E11118,Isaac Moreau,Information Technology,IT Support Analyst,2018-01-25,Staff
+E11119,Mateo Iqbal,Lending Operations,Loan Processor,2021-02-17,Staff
+E11120,Marcus Patel,Lending Operations,Loan Processor,2022-12-27,Staff
+E11121,Isaac Brennan,Lending Operations,Loan Processor,2022-09-09,Staff
+E11122,Diego Mensah,Risk & Compliance,Compliance Analyst,2025-03-04,Staff
+E11123,Elena Larsen,Customer Operations,Operations Associate,2017-04-05,Staff
+E11124,Yuki Abara,Lending Operations,Loan Servicing Specialist,2012-11-08,Staff
+E11125,Lucas Silva,Customer Operations,Operations Associate,2023-06-01,Staff
+E11126,Aisha Brennan,Finance & Accounting,Controller,2019-01-14,Staff
+E11127,Owen Schultz,Finance & Accounting,Senior Accountant,2018-10-17,Staff
+E11128,Chloe Johansson,Information Technology,IT Support Analyst,2012-12-18,Staff
+E11129,Elena Brennan,Finance & Accounting,GL Analyst,2012-01-17,Staff
+E11130,Aisha Iqbal,Finance & Accounting,GL Analyst,2016-11-10,Staff
+E11131,Elena Larsen,Information Technology,Systems Administrator,2013-02-14,Staff
+E11132,Isaac Johansson,Customer Operations,Client Service Rep,2015-12-16,Staff
+E11133,Owen Tanaka,Information Technology,Database Administrator,2018-04-27,Staff
+E11134,Marcus Castillo,Finance & Accounting,Controller,2016-06-20,Staff
+E11135,Mateo Novak,Customer Operations,Operations Associate,2016-08-22,Staff
+E11136,Nadia Kim,Lending Operations,Loan Servicing Specialist,2014-08-14,Manager
+E11137,Amara Rivera,Customer Operations,Client Service Rep,2015-11-10,Staff
+E11138,Mateo Kim,Risk & Compliance,Risk Analyst,2020-05-29,Manager
+E11139,Grace Walsh,Finance & Accounting,Senior Accountant,2017-07-27,Staff
+E11140,Aisha Adeyemi,Information Technology,IT Support Analyst,2012-03-23,Staff
+E11141,Avery Osei,Lending Operations,Underwriter,2017-04-14,Staff
+E11142,Samuel Nguyen,Lending Operations,Loan Servicing Specialist,2020-02-13,Staff
+E11143,Yuki Abara,Risk & Compliance,Compliance Analyst,2017-10-09,Staff
+E11144,Ravi Nguyen,Lending Operations,Loan Processor,2012-06-05,Staff
+E11145,Zara Morales,Finance & Accounting,GL Analyst,2018-05-31,Staff
+E11146,Kwame Haddad,Finance & Accounting,Controller,2015-01-21,Staff
+E11147,Zara Moreau,Customer Operations,Operations Associate,2017-11-29,Staff
+E11148,Isaac Moreau,Information Technology,IT Support Analyst,2024-04-22,Staff
+E11149,Elena Singh,Customer Operations,Client Service Rep,2020-01-03,Staff
+E11150,Aisha Patel,Treasury,Treasury Analyst,2015-10-29,Staff
+E11151,Marcus Abara,Risk & Compliance,Risk Analyst,2021-09-23,Staff
+E11152,Omar Rivera,Customer Operations,Operations Associate,2024-06-24,Staff
+E11153,Wei Silva,Finance & Accounting,Senior Accountant,2022-04-27,Staff
+E11154,Fatima Walsh,Customer Operations,Client Service Rep,2023-09-27,Staff
+E11155,Priya Iqbal,Lending Operations,Loan Servicing Specialist,2021-12-21,Staff
+E11156,Diego Reyes,Customer Operations,Operations Associate,2018-10-04,Staff
+E11157,Diego Haddad,Customer Operations,Operations Associate,2015-03-11,Staff
+E11158,Owen Brennan,Risk & Compliance,Compliance Analyst,2020-09-01,Staff
+E11159,Yuki Chen,Lending Operations,Loan Servicing Specialist,2021-11-25,Staff
+E11160,Ravi Osei,Finance & Accounting,Staff Accountant,2018-06-12,Staff
+E11161,Elena Osei,Information Technology,Software Engineer,2025-07-17,Staff
+E11162,Chloe Walsh,Information Technology,IT Support Analyst,2020-03-23,Staff
+E11163,Lucas Brennan,Customer Operations,Client Service Rep,2016-01-28,Staff
+E11164,Yuki Rivera,Risk & Compliance,Compliance Analyst,2019-05-28,Staff
+E11165,Sofia Silva,Lending Operations,Loan Servicing Specialist,2019-05-03,Staff
+E11166,Noah Adeyemi,Finance & Accounting,Controller,2020-09-17,Staff
+E11167,Ravi Iqbal,Customer Operations,Client Service Rep,2015-01-22,Staff
+E11168,Ethan Singh,Information Technology,Release Engineer,2017-11-23,Staff
+E11169,Zara Kowalski,Risk & Compliance,Risk Analyst,2024-05-20,Staff
+E11170,Samuel Castillo,Information Technology,Database Administrator,2023-04-25,Staff
+E11171,Yuki Moreau,Lending Operations,Loan Servicing Specialist,2020-06-08,Staff
+E11172,Lucas Iqbal,Finance & Accounting,Controller,2019-03-11,Staff
+E11173,Nadia Johansson,Finance & Accounting,Controller,2025-03-13,Staff
+E11174,Yuki Kim,Finance & Accounting,Controller,2018-11-29,Staff
+E11175,Aisha Rivera,Finance & Accounting,GL Analyst,2013-10-25,Staff
+E11176,Owen Kowalski,Customer Operations,Operations Associate,2016-12-28,Staff
+E11177,Yuki Kim,Information Technology,Database Administrator,2024-05-15,Staff
+E11178,Kwame Kowalski,Lending Operations,Underwriter,2018-05-24,Staff
+E11179,Mei Rivera,Finance & Accounting,Controller,2014-12-22,Staff
+E11180,Priya Abara,Information Technology,Database Administrator,2021-06-08,Staff
+E11181,Fatima Moreau,Treasury,Treasury Analyst,2019-03-13,Staff
+E11182,Kwame Morales,Lending Operations,Underwriter,2014-06-13,Staff
+E11183,Fatima Reyes,Lending Operations,Loan Processor,2022-04-11,Staff
+E11184,Amara Schultz,Customer Operations,Client Service Rep,2023-11-09,Staff
+E11185,Diego Chen,Information Technology,Release Engineer,2025-07-15,Staff
+E11186,Wei Iqbal,Customer Operations,Client Service Rep,2019-10-28,Staff
+E11187,Kwame Reyes,Information Technology,Database Administrator,2017-10-31,Staff
+E11188,Noah Brennan,Finance & Accounting,Controller,2012-03-28,Staff
+E11189,Marcus Chen,Customer Operations,Client Service Rep,2021-09-22,Staff
+E11190,Sofia Chen,Finance & Accounting,Controller,2014-08-26,Staff
+E11191,Grace Walsh,Finance & Accounting,Staff Accountant,2020-04-17,Staff
+E11192,Isaac Rivera,Lending Operations,Loan Servicing Specialist,2022-05-30,Staff
+E11193,Aisha Schultz,Lending Operations,Underwriter,2017-02-06,Staff
+E11194,Lucas Okafor,Finance & Accounting,Staff Accountant,2022-06-07,Staff
+E11195,Sofia Ferreira,Lending Operations,Loan Servicing Specialist,2016-12-29,Staff
+E11196,Lucas Duarte,Customer Operations,Operations Associate,2024-04-02,Staff
+E11197,Sofia Chen,Information Technology,Release Engineer,2021-04-12,Staff
+E11198,Avery Nguyen,Finance & Accounting,GL Analyst,2014-07-17,Staff
+E11199,Nadia Abara,Information Technology,Database Administrator,2013-05-13,Staff
+E11200,Aisha Castillo,Customer Operations,Operations Associate,2015-03-02,Staff
+E11201,Nadia Rivera,Information Technology,IT Support Analyst,2025-01-23,Staff
+E11202,Samuel Haddad,Information Technology,IT Support Analyst,2014-05-14,CAB Member
+E11203,Grace Patel,Customer Operations,Operations Associate,2017-04-20,Staff
+E11204,Jordan Mensah,Customer Operations,Operations Associate,2016-10-18,Staff
+E11205,Owen Rivera,Lending Operations,Loan Processor,2020-09-03,Staff
+E11206,Amara Mensah,Information Technology,Release Engineer,2014-08-27,Staff
+E11207,Nadia Abara,Finance & Accounting,Senior Accountant,2014-12-03,Staff
+E11208,Kwame Patel,Lending Operations,Loan Servicing Specialist,2022-07-01,Staff
+E11209,Owen Rivera,Lending Operations,Underwriter,2025-11-10,Staff
+E11210,Mei Rivera,Information Technology,Release Engineer,2020-05-18,Staff
+E11211,Lucas Schultz,Lending Operations,Underwriter,2022-02-16,Staff
+E11212,Lucas Chen,Lending Operations,Underwriter,2025-02-28,Staff
+E11213,Fatima Nguyen,Finance & Accounting,Senior Accountant,2025-11-17,Staff
+E11214,Zara Okafor,Customer Operations,Client Service Rep,2015-05-08,Staff
+E11215,Hannah Brennan,Information Technology,Systems Administrator,2022-05-02,Staff
+E11216,Mateo Walsh,Treasury,Treasury Analyst,2015-12-07,Staff
+E11217,Noah Johansson,Lending Operations,Loan Servicing Specialist,2025-02-25,Staff
+E11218,Marcus Walsh,Treasury,Treasury Analyst,2023-07-10,Staff
+E11219,Chloe Kowalski,Information Technology,Systems Administrator,2013-01-04,Staff
+E11220,Grace Castillo,Customer Operations,Operations Associate,2024-04-17,Staff
+E11221,Amara Singh,Customer Operations,Operations Associate,2015-12-08,Staff
+E11222,Diego Haddad,Risk & Compliance,Compliance Analyst,2019-02-14,Staff
+E11223,Diego Tanaka,Lending Operations,Underwriter,2021-06-07,Manager
+E11224,Ravi Chen,Lending Operations,Loan Servicing Specialist,2024-12-10,Staff
+E11225,Leila Adeyemi,Finance & Accounting,Controller,2020-06-29,Staff
+E11226,Aisha Rivera,Lending Operations,Loan Servicing Specialist,2024-04-22,Staff
+E11227,Mei Rivera,Finance & Accounting,Controller,2016-10-19,Staff
+E11228,Nadia Mensah,Finance & Accounting,Controller,2024-07-17,Staff
+E11229,Amara Ferreira,Treasury,Cash Manager,2015-02-12,Staff
+E11230,Marcus Mensah,Information Technology,Software Engineer,2015-01-13,Staff
+E11231,Kwame Reyes,Lending Operations,Loan Processor,2021-08-30,Manager
+E11232,Isaac Osei,Finance & Accounting,GL Analyst,2012-03-26,Staff
+E11233,Yuki Adeyemi,Customer Operations,Operations Associate,2022-04-01,Staff
+E11234,Priya Larsen,Lending Operations,Loan Processor,2025-04-14,Staff
+E11235,Grace Brennan,Risk & Compliance,Risk Analyst,2021-03-25,Staff
+E11236,Diego Castillo,Finance & Accounting,Controller,2017-01-26,Staff
+E11237,Zara Ferreira,Customer Operations,Operations Associate,2019-09-09,Staff
+E11238,Aisha Patel,Lending Operations,Loan Servicing Specialist,2017-08-04,Staff
+E11239,Isaac Reyes,Risk & Compliance,Compliance Analyst,2020-06-19,Staff
+E11240,Wei Abara,Information Technology,Software Engineer,2025-07-21,Staff
+E11241,Yuki Morales,Finance & Accounting,Staff Accountant,2023-03-13,Staff
+E11242,Noah Osei,Lending Operations,Loan Processor,2021-11-23,Staff
+E11243,Elena Duarte,Finance & Accounting,Senior Accountant,2021-08-11,Staff
+E11244,Omar Brennan,Risk & Compliance,Risk Analyst,2022-04-27,Staff
+E11245,Lucas Kim,Finance & Accounting,Controller,2025-01-17,Staff
+E11246,Jordan Chen,Treasury,Cash Manager,2021-02-03,Staff
+E11247,Lucas Reyes,Information Technology,Database Administrator,2015-10-30,Staff
+E11248,Jordan Brennan,Treasury,Treasury Analyst,2015-07-24,Staff
+E11249,Marcus Larsen,Lending Operations,Loan Processor,2017-09-08,Staff
+E11250,Avery Chen,Information Technology,Systems Administrator,2021-09-23,Staff

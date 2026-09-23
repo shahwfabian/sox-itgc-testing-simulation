@@ -1,0 +1,10 @@
+control_id,sql_file,sql_exceptions,pandas_exceptions,only_in_sql,only_in_pandas,agree
+ITGC-UA-01,sql/ua01_new_access_approval.sql,28,28,0,0,True
+ITGC-UA-02,sql/ua02_termination_revocation.sql,20,20,0,0,True
+ITGC-UA-03,sql/ua03_hr_notification.sql,11,11,0,0,True
+ITGC-UA-04,sql/ua04_access_review.sql,1,1,0,0,True
+ITGC-PA-01,sql/pa01_privileged_authorization.sql,10,10,0,0,True
+ITGC-PA-02,sql/pa02_privileged_sod.sql,0,0,0,0,True
+ITGC-CM-01,sql/cm01_change_approval.sql,32,32,0,0,True
+ITGC-CM-02,sql/cm02_rollback_plan.sql,22,22,0,0,True
+ITGC-CM-03,sql/cm03_change_sod.sql,0,0,0,0,True

@@ -1,0 +1,125 @@
+control_id,source_file,record_key,exception_type,detail
+ITGC-UA-03,termination_log.csv,E10174,Late HR notification,HR notified IT 7 business days after termination
+ITGC-UA-03,termination_log.csv,E11203,Late HR notification,HR notified IT 3 business days after termination
+ITGC-UA-03,termination_log.csv,E10592,Late HR notification,HR notified IT 6 business days after termination
+ITGC-UA-03,termination_log.csv,E10224,Late HR notification,HR notified IT 4 business days after termination
+ITGC-UA-03,termination_log.csv,E10987,Late HR notification,HR notified IT 4 business days after termination
+ITGC-UA-03,termination_log.csv,E11237,Late HR notification,HR notified IT 8 business days after termination
+ITGC-UA-03,termination_log.csv,E10260,Late HR notification,HR notified IT 7 business days after termination
+ITGC-UA-03,termination_log.csv,E10622,Late HR notification,HR notified IT 6 business days after termination
+ITGC-UA-03,termination_log.csv,E10684,Late HR notification,HR notified IT 9 business days after termination
+ITGC-UA-03,termination_log.csv,E10079,Late HR notification,HR notified IT 3 business days after termination
+ITGC-UA-03,termination_log.csv,E10674,Late HR notification,HR notified IT 7 business days after termination
+ITGC-UA-02,user_access_log.csv,G201578,Access never revoked,E10622 terminated 2025-01-14; LSP access still active
+ITGC-UA-02,user_access_log.csv,G200644,Late revocation,E10674 terminated 2025-02-06; LSP revoked 6 BD later
+ITGC-UA-02,user_access_log.csv,G200515,Late revocation,E10856 terminated 2025-03-05; GL01 revoked 20 BD later
+ITGC-UA-02,user_access_log.csv,G200612,Late revocation,E10271 terminated 2025-03-05; TMS revoked 12 BD later
+ITGC-UA-02,user_access_log.csv,G201120,Late revocation,E11237 terminated 2025-03-19; LSP revoked 21 BD later
+ITGC-UA-02,user_access_log.csv,G201351,Late revocation,E11235 terminated 2025-08-04; LSP revoked 17 BD later
+ITGC-UA-02,user_access_log.csv,G201283,Access never revoked,E10899 terminated 2025-08-28; GL01 access still active
+ITGC-UA-02,user_access_log.csv,G201285,Access never revoked,E10899 terminated 2025-08-28; TMS access still active
+ITGC-UA-02,user_access_log.csv,G201286,Access never revoked,E10899 terminated 2025-08-28; FCR access still active
+ITGC-UA-02,user_access_log.csv,G201470,Access never revoked,E10899 terminated 2025-08-28; TMS access still active
+ITGC-UA-02,user_access_log.csv,G202305,Access never revoked,E10899 terminated 2025-08-28; FCR access still active
+ITGC-UA-02,user_access_log.csv,G202322,Access never revoked,E10899 terminated 2025-08-28; GL01 access still active
+ITGC-UA-02,user_access_log.csv,G200092,Late revocation,E10079 terminated 2025-08-29; GL01 revoked 20 BD later
+ITGC-UA-02,user_access_log.csv,G201786,Access never revoked,E10846 terminated 2025-10-09; LSP access still active
+ITGC-UA-02,user_access_log.csv,G202447,Access never revoked,E10846 terminated 2025-10-09; LSP access still active
+ITGC-UA-02,user_access_log.csv,G200768,Late revocation,E11203 terminated 2025-10-10; LSP revoked 11 BD later
+ITGC-UA-02,user_access_log.csv,G200622,Late revocation,E10767 terminated 2025-10-29; LSP revoked 8 BD later
+ITGC-UA-02,user_access_log.csv,G200387,Access never revoked,E10987 terminated 2025-11-06; LSP access still active
+ITGC-UA-02,user_access_log.csv,G201198,Late revocation,E10406 terminated 2025-12-02; FCR revoked 16 BD later
+ITGC-UA-02,user_access_log.csv,G201391,Access never revoked,E10258 terminated 2025-12-09; FCR access still active
+ITGC-UA-01,user_access_log.csv,G202506,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202012,Missing approver,Read Only on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202169,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202329,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202080,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202129,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G201938,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202025,Missing approver,Standard User on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202497,Missing approver,Standard User on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202511,Missing approver,Read Only on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202121,Missing approver,Standard User on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202345,Missing approver,Read Only on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202174,Missing approver,Power User on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202670,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202583,Missing approver,Standard User on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202423,Missing approver,Power User on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202335,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202577,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G201943,Missing approver,Power User on FCR provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202375,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202260,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202587,Missing approver,Standard User on TMS provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G201926,Missing approver,Power User on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202656,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G201968,Missing approver,Standard User on TMS provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202384,Missing approver,Read Only on LSP provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202395,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-UA-01,user_access_log.csv,G202579,Missing approver,Standard User on GL01 provisioned with no approver
+ITGC-PA-01,user_access_log.csv,G202123,No approval record,Ticket RITM102455 not in approval register
+ITGC-PA-01,user_access_log.csv,G202186,No approval record,Ticket RITM102689 not in approval register
+ITGC-PA-01,user_access_log.csv,G202674,No approval record,Ticket RITM102430 not in approval register
+ITGC-PA-01,user_access_log.csv,G202461,No approval record,Ticket RITM102496 not in approval register
+ITGC-PA-01,user_access_log.csv,G202043,No approval record,Ticket RITM102638 not in approval register
+ITGC-PA-01,user_access_log.csv,G202524,Approval after grant,Approved 10 days after access granted
+ITGC-PA-01,user_access_log.csv,G201970,Approval after grant,Approved 2 days after access granted
+ITGC-PA-01,user_access_log.csv,G202463,Access level mismatch,Granted Superuser but approved Administrator
+ITGC-PA-01,user_access_log.csv,G202358,Access level mismatch,Granted Superuser but approved Database Administrator
+ITGC-PA-01,user_access_log.csv,G202350,System mismatch,Granted on FCR but approval is for GL01
+ITGC-UA-04,access_reviews.csv,UAR-2025Q3-LSP,Review completed late,Q3 LSP review signed off 12 days after due date
+ITGC-CM-01,change_log.csv,CHG0030310,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030513,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030361,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030026,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030061,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030205,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030614,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030425,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030474,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030533,Missing approver,No approver or approval date
+ITGC-CM-01,change_log.csv,CHG0030578,Approved after implementation,Normal change approved ~6 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030110,Approved after implementation,Standard change approved ~6 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030219,Approved after implementation,Normal change approved ~5 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030345,Approved after implementation,Normal change approved ~7 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030130,Approved after implementation,Normal change approved ~3 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030358,Approved after implementation,Standard change approved ~5 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030482,Approved after implementation,Standard change approved ~6 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030241,Approved after implementation,Normal change approved ~1 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030150,Approved after implementation,Standard change approved ~1 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030299,Approved after implementation,Normal change approved ~3 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030089,Approved after implementation,Normal change approved ~1 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030289,Approved after implementation,Normal change approved ~5 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030569,Approved after implementation,Normal change approved ~4 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030596,Approved after implementation,Normal change approved ~9 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030149,Approved after implementation,Normal change approved ~5 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030472,Approved after implementation,Normal change approved ~9 days after go-live
+ITGC-CM-01,change_log.csv,CHG0030501,Emergency approval outside window,Emergency change approved 6 business days after implementation
+ITGC-CM-01,change_log.csv,CHG0030187,Emergency approval outside window,Emergency change approved 4 business days after implementation
+ITGC-CM-01,change_log.csv,CHG0030570,Emergency approval outside window,Emergency change approved 9 business days after implementation
+ITGC-CM-01,change_log.csv,CHG0030528,Emergency approval outside window,Emergency change approved 4 business days after implementation
+ITGC-CM-01,change_log.csv,CHG0030465,Emergency approval outside window,Emergency change approved 6 business days after implementation
+ITGC-CM-01,change_log.csv,CHG0030505,Emergency approval outside window,Emergency change approved 5 business days after implementation
+ITGC-CM-02,change_log.csv,CHG0030395,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030456,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030424,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030548,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030387,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030390,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030565,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030579,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030422,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030349,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030353,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030170,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030097,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030166,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030370,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030240,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030034,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030454,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030269,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030500,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030388,No rollback plan,Change record has no documented back-out plan
+ITGC-CM-02,change_log.csv,CHG0030251,No rollback plan,Change record has no documented back-out plan
